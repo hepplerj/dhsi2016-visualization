@@ -26,6 +26,10 @@ Lincoln Mullen, *[Digital History Methods in R](http://lincolnmullen.com/project
 
 > An in-progress book focused on teaching historians to apply R to digital history. Topics include working with and manipulating different types of data as well as the application of various techniques including plotting, statistics, geospatial analysis, natural language processing, topic modeling, and networks.
 
+Google, [Intro to R](https://www.youtube.com/playlist?list=PLOU2XLYxmsIK9qQfztXeybpHvru-TrqAP)
+
+> An introduction to R from Google Developers.
+
 Hadley Wickham, *[ggplot2: Elegant Graphics for Data Analysis](http://www.amazon.com/ggplot2-Elegant-Graphics-Data-Analysis/dp/0387981403)* (Springer, 2009).
 
 > Wickham's introduction to the ggplot2 package for data visualization, a useful reference work for creating and designing graphics in R.
