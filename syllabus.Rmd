@@ -1,0 +1,114 @@
+---
+title: "DHSI Syllabus"
+author: "Jason Heppler and Lincoln Mullen"
+date: "April 18, 2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Syllabus
+
+## Day 1 | Introduction to R
+
+Discussions will include an overview of how humanities scholars are using R (and other languages), and the selection of a visualization project for students to work.
+
+Morning
+
+- Welcome
+- What is R? Why R?
+- Introduction to basic plots
+
+Afternoon
+
+- Introduction to `ggplot`
+- Lab: Setup and hands-on
+
+### Relevant Readings
+
+Hadley Wickham, "[Introduction](http://r4ds.had.co.nz/introduction.html)," *R for Data Science* (O'Reilly, 2016).
+
+Paul Torfs & Claudia Brauer, "[A (very) short introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)" (2014).
+
+Taylor Arnold and Lauren Tilton, "Set-Up" and "A Short Introduction to R," *[Humanities Data in R](http://www.springer.com/us/book/9783319207018)* (Springer, 2015)
+
+## Day 2 | Data manipulation and reproducible research
+
+Discussions will include best practices for data formats. Students will gather and manipulate the data for their projects.
+
+Morning
+
+- Data manipulation in R with `tidyr` and `dplyr`
+
+Afternoon
+
+- Further R: Introduction to knitr/rmarkdown
+- Lab: Hands-on data manipulation and plotting
+
+### Relevant Readings
+
+Hadley Wickham, "[Tidy Data and Tidy Tools](http://vimeo.com/33727555)," NYC Open Statistical Computing Meetup, Dec. 2011 (video).
+
+Hadley Wickham, "[Tidy Data](http://www.jstatsoft.org/v59/i10)," *Journal of Statistical Software* 50, no. 10 (2014).
+
+Hadley Wickham, "[Tidy data](http://r4ds.had.co.nz/tidy-data.html)," *R for Data Science* (O'Reilly, 2016).
+
+Hadley Wickham, "[Reshaping Data in R](http://vita.had.co.nz/papers/reshape-scgn.html)," *Statistical Computing and Graphics* 16, no. 2 (Dec. 2005): 5–8.
+
+Hadley Wickham, "[The Split-Combine-Apply Strategy for Data Analysis](http://www.jstatsoft.org/v40/i01/)," *Journal of Statistical Software* 40, no. 1 (Apr. 2011): 1–29.
+
+## Day 3 | Spatial History and Interactive Visualizations
+
+Discussions will include an overview of how humanities scholars are creating online visualizations. Students will begin the online portion of their visualization.
+
+Morning
+
+- Introduction to mapping with ggplot
+- Introduction to Leaflet
+
+Afternoon
+
+- Introduction to Shiny and web applications
+- Lab: Hands-on with Shiny and interactive maps
+
+### Relevant Readings
+
+RStudio, "[Teach yourself Shiny](http://shiny.rstudio.com/tutorial/)" (2014).
+
+Roger S. Bivand, Edzer Pebesma, and Virgilio Gómez-Rubio, *[Applied Spatial Data Analysis with R](http://www.springer.com/us/book/9781461476177)* (Springer, 2013).
+
+Taylor Arnold and Lauren Tilton, "Geospatial Data," *[Humanities Data in R](http://www.springer.com/us/book/9783319207018)* (Springer, 2015)
+
+Robin Lovelace and James Cheshire, "[Introduction to Spatial Data and ggplot2](http://spatial.ly/2013/12/introduction-spatial-data-ggplot2/)," Spatial.ly, Dec. 9, 2013.
+
+Steven Brey, "[Working with Geospatial Data](http://mazamascience.com/WorkingWithData/?p=1277)" and Bethany Yollin, "[Working with Geospatial Data (and ggplot2)](http://mazamascience.com/WorkingWithData/?p=1494)"
+
+## Day 4 | Networks
+
+Discussions will include best practices in network visualizations. Stu- dents will have the opportunity to implement and experiment with net- works with either their own data or with sample data provided.
+
+Morning
+
+- Introduction to network analysis in R
+- Data manipulation for networks
+- Networks in `ggplot`
+
+Afternoon
+
+- Lab: Hands-on with networks
+
+### Relevant Readings
+
+Taylor Arnold and Lauren Tilton, "Networks," *[Humanities Data in R](http://www.springer.com/us/book/9783319207018)* (Springer, 2015)
+
+Eric D. Kolaczyk and Gábor Csárdi, *[Statistical Analysis of Network Data with R](http://www.springer.com/us/book/9781493909827)* (Springer, 2014).
+
+Shawn Graham, Ian Milligan, and Scott Weingart, "[Network Analysis](http://www.themacroscope.org/?page_id=889)" and "[Network Analysis Fundamentals](http://www.themacroscope.org/?page_id=892)," *The Historian's Macroscope* (2015).
+
+Scott Weingart, "[Demystifying Networks, Parts I & II](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/)," *Journal of Digital Humanities* 1, no. 1 (2011).
+
+## Day 5 | Final
+
+Show and tell; discussion of projects; next steps
