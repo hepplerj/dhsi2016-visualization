@@ -1,7 +1,7 @@
 ---
-title: "DHSI Syllabus"
+date: "DHSI 2016"
 author: "Jason Heppler and Lincoln Mullen"
-date: "April 18, 2016"
+title: "R, Interactive Graphics, and Data Visualization"
 output: pdf_document
 ---
 
@@ -9,17 +9,20 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Course description
+
+The visualization of historical and literary data has become a common practice in digital humanities, drawing on older traditions of visualizing in these disciplines. A variety of out-of-the-box tools exist for easily jumping in to data and information visualization, but when we use these tools we run the risk of research questions being wedged into a tool rather than the tool fitting the research. This course introduces students to humanities visualizations, using a programming language that let researchers prioritize their questions over the requirements of ready-made tools. Students will learn how to iteratively create plots and maps using the R statistical programming language, as well as how to manipulate data so that it can be visualized. Students will become familiar with the entire pipeline of visualization---from data manipulation to exploratory graphics to online interactive visualizations. In addition, the course will offer an introduction to Shiny, a framework for writing interactive websites with analysis in R.
+
 # Syllabus
 
-## Day 1 | Introduction to R
+## Day 1 | Static visualization with ggplot2
 
-Discussions will include an overview of how humanities scholars are using R (and other languages), and the selection of a visualization project for students to work.
+Discussions will include an overview of how humanities scholars are using R (and other languages like Python), the grammar of graphics, and the selection of a visualization project for students to work.
 
 Morning
 
-- Welcome
 - What is R? Why R?
-- Introduction to basic plots
+- Introduction to basic plots and data structures
 
 Afternoon
 
@@ -112,3 +115,9 @@ Scott Weingart, "[Demystifying Networks, Parts I & II](http://journalofdigitalhu
 ## Day 5 | Final
 
 Show and tell; discussion of projects; next steps
+
+# Preparing for this class
+
+- Come prepared with R and RStudio. Server will be available.
+- Prepare a dataset
+- Recommended reading. Not going to deal that much with either visualization theory or with analytical methods. Rather focus is on visualizing and data manipulation.
