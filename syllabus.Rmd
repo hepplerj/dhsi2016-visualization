@@ -113,6 +113,10 @@ RStudio, "[Teach yourself Shiny](http://shiny.rstudio.com/tutorial/)" (2014).
 
 # Preparing for this class
 
-- Come prepared with R and RStudio. Server will be available.
-- Prepare a dataset
-- Recommended reading. Not going to deal that much with either visualization theory or with analytical methods. Rather focus is on visualizing and data manipulation.
+There are several things that you can do to prepare for this course.
+
+First, come prepared by install R and RStudio. You can find instructions for [installing R](https://cloud.r-project.org/) for your operating system at CRAN, and for installing [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop) at RStudio's website. While a version of RStudio will be available for participants via a server, it will be far better to have R installed on your own platform. Help will be provided on the first day.
+
+Second, pick a dataset in your field that you would like to visit, or better yet, several. We will go over how to prepare the data for visualization, but you should acquire the data before coming to the course.
+
+Third, try to gain a basic familiarity with R as explained in the suggested readings. We will provide an introduction in the class, but you will get much more out of the course if you work through the readings in advance.
