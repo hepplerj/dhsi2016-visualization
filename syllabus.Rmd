@@ -17,19 +17,21 @@ The visualization of historical and literary data has become a common practice i
 
 ## Day 1 | Static visualization with ggplot2
 
-Discussions will include an overview of how humanities scholars are using R (and other languages like Python), the grammar of graphics, and the selection of a visualization project for students to work.
+Discussions will include an overview of how humanities scholars are using R (and other languages like Python), the grammar of graphics and the ggplot2 package, and the selection of a visualization project for attendees to work of during the course.
 
-Morning
+### Morning
 
 - What is R? Why R?
-- Introduction to basic plots and data structures
+- The grammar of graphics
+- Basic plots and data structures
 
-Afternoon
+### Afternoon
 
-- Introduction to `ggplot`
-- Lab: Setup and hands-on
+- Intermediate plotting with ggplot2
+- Reproducible research with rmarkdown documents
+- Lab: Installing R, RStudio, and packages (as necessary)
 
-### Relevant Readings
+### Readings
 
 Hadley Wickham, "[Introduction](http://r4ds.had.co.nz/introduction.html)," *R for Data Science* (O'Reilly, 2016).
 
@@ -37,50 +39,40 @@ Paul Torfs & Claudia Brauer, "[A (very) short introduction to R](https://cran.r-
 
 Taylor Arnold and Lauren Tilton, "Set-Up" and "A Short Introduction to R," *[Humanities Data in R](http://www.springer.com/us/book/9783319207018)* (Springer, 2015)
 
-## Day 2 | Data manipulation and reproducible research
+## Day 2 | Data manipulation with dplyr and tidyr
 
-Discussions will include best practices for data formats. Students will gather and manipulate the data for their projects.
+Discussions will include best practices for data formats. Attendees will gather and manipulate the data for their projects.
 
-Morning
+### Morning
 
-- Data manipulation in R with `tidyr` and `dplyr`
+- Data manipulation verbs from dplyr and tidyr
 
-Afternoon
+### Afternoon
 
-- Further R: Introduction to knitr/rmarkdown
-- Lab: Hands-on data manipulation and plotting
+- More data manipulation
+- Lab: Gathering, cleaning, and tidying data for the course
 
-### Relevant Readings
+### Readings
 
 Hadley Wickham, "[Tidy Data and Tidy Tools](http://vimeo.com/33727555)," NYC Open Statistical Computing Meetup, Dec. 2011 (video).
 
-Hadley Wickham, "[Tidy Data](http://www.jstatsoft.org/v59/i10)," *Journal of Statistical Software* 50, no. 10 (2014).
-
 Hadley Wickham, "[Tidy data](http://r4ds.had.co.nz/tidy-data.html)," *R for Data Science* (O'Reilly, 2016).
 
-Hadley Wickham, "[Reshaping Data in R](http://vita.had.co.nz/papers/reshape-scgn.html)," *Statistical Computing and Graphics* 16, no. 2 (Dec. 2005): 5–8.
+## Day 3 | Interactive graphics with htmlwidgets
 
-Hadley Wickham, "[The Split-Combine-Apply Strategy for Data Analysis](http://www.jstatsoft.org/v40/i01/)," *Journal of Statistical Software* 40, no. 1 (Apr. 2011): 1–29.
+Discussions will include an overview of how humanities scholars are creating online visualizations, and the use of JavaScript visualization libraries in R via the htmlwidgets package. Attendees will begin the online portion of their visualization.
 
-## Day 3 | Spatial History and Interactive Visualizations
+### Morning
 
-Discussions will include an overview of how humanities scholars are creating online visualizations. Students will begin the online portion of their visualization.
+- Time series with dygraphs
+- Interactive ggplots with ggiraph
+- Network graphics
 
-Morning
+### Afternoon
 
-- Introduction to mapping with ggplot
-- Introduction to Leaflet
-
-Afternoon
-
-- Introduction to Shiny and web applications
-- Lab: Hands-on with Shiny and interactive maps
+- Maps with leaflet
 
 ### Relevant Readings
-
-RStudio, "[Teach yourself Shiny](http://shiny.rstudio.com/tutorial/)" (2014).
-
-Roger S. Bivand, Edzer Pebesma, and Virgilio Gómez-Rubio, *[Applied Spatial Data Analysis with R](http://www.springer.com/us/book/9781461476177)* (Springer, 2013).
 
 Taylor Arnold and Lauren Tilton, "Geospatial Data," *[Humanities Data in R](http://www.springer.com/us/book/9783319207018)* (Springer, 2015)
 
@@ -88,33 +80,36 @@ Robin Lovelace and James Cheshire, "[Introduction to Spatial Data and ggplot2](h
 
 Steven Brey, "[Working with Geospatial Data](http://mazamascience.com/WorkingWithData/?p=1277)" and Bethany Yollin, "[Working with Geospatial Data (and ggplot2)](http://mazamascience.com/WorkingWithData/?p=1494)"
 
-## Day 4 | Networks
-
-Discussions will include best practices in network visualizations. Stu- dents will have the opportunity to implement and experiment with net- works with either their own data or with sample data provided.
-
-Morning
-
-- Introduction to network analysis in R
-- Data manipulation for networks
-- Networks in `ggplot`
-
-Afternoon
-
-- Lab: Hands-on with networks
-
-### Relevant Readings
-
-Taylor Arnold and Lauren Tilton, "Networks," *[Humanities Data in R](http://www.springer.com/us/book/9783319207018)* (Springer, 2015)
-
-Eric D. Kolaczyk and Gábor Csárdi, *[Statistical Analysis of Network Data with R](http://www.springer.com/us/book/9781493909827)* (Springer, 2014).
-
 Shawn Graham, Ian Milligan, and Scott Weingart, "[Network Analysis](http://www.themacroscope.org/?page_id=889)" and "[Network Analysis Fundamentals](http://www.themacroscope.org/?page_id=892)," *The Historian's Macroscope* (2015).
 
 Scott Weingart, "[Demystifying Networks, Parts I & II](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/)," *Journal of Digital Humanities* 1, no. 1 (2011).
 
+## Day 4 | Interactive analysis with Shiny
+
+An introduction to the Shiny web framework for R, which allows users to create a website which connect arbitrary inputs to output from plots and htmlwidgets.
+
+### Morning
+
+- Introduction to Shiny
+
+### Afternoon
+
+- Lab: Hands-on with networks
+
+### Readings
+
+RStudio, "[Teach yourself Shiny](http://shiny.rstudio.com/tutorial/)" (2014).
+
 ## Day 5 | Final
 
-Show and tell; discussion of projects; next steps
+### Morning
+
+- Work on final projects
+
+### Afternoon
+
+- Show and tell
+- Discussion of projects
 
 # Preparing for this class
 
