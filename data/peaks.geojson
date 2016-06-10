@@ -1,0 +1,7640 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-02-21T21:01:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/332597680",
+      "properties": {
+        "@id": "node/332597680",
+        "ele": "2871",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254907",
+        "gnis:state_id": "06",
+        "name": "Lembert Dome",
+        "natural": "peak",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3471347,
+          37.8819706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358761335",
+      "properties": {
+        "@id": "node/358761335",
+        "ele": "1771",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "218587",
+        "gnis:state_id": "06",
+        "name": "Bald Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0871308,
+          38.144641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358761655",
+      "properties": {
+        "@id": "node/358761655",
+        "ele": "2425",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "218987",
+        "gnis:state_id": "06",
+        "name": "Bell Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9215702,
+          38.1488061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358761848",
+      "properties": {
+        "@id": "node/358761848",
+        "ele": "2736",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "219121",
+        "gnis:state_id": "06",
+        "name": "Mount Biedeman",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0679241,
+          38.1524201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358762619",
+      "properties": {
+        "@id": "node/358762619",
+        "ele": "758",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "220006",
+        "gnis:state_id": "06",
+        "name": "Buck Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0787895,
+          37.4852154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358763627",
+      "properties": {
+        "@id": "node/358763627",
+        "ele": "3217",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "221121",
+        "gnis:state_id": "06",
+        "name": "Cirque Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4587762,
+          38.1318633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358764285",
+      "properties": {
+        "@id": "node/358764285",
+        "ele": "1664",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "221792",
+        "gnis:state_id": "06",
+        "name": "Crandall Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1432439,
+          38.158808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358765047",
+      "properties": {
+        "@id": "node/358765047",
+        "ele": "3603",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "222821",
+        "gnis:state_id": "06",
+        "name": "Eagle Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.408496,
+          38.1799188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358765869",
+      "properties": {
+        "@id": "node/358765869",
+        "ele": "3504",
+        "fixme": "location is wrong",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "223503",
+        "gnis:state_id": "06",
+        "name": "Finger Peaks",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.405718,
+          38.0868647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358766025",
+      "properties": {
+        "@id": "node/358766025",
+        "ele": "3299",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "223692",
+        "gnis:state_id": "06",
+        "name": "Forsyth Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5801698,
+          38.157695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358766369",
+      "properties": {
+        "@id": "node/358766369",
+        "ele": "3199",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "224008",
+        "gnis:state_id": "06",
+        "name": "Gale Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.387269,
+          37.5679754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358766456",
+      "properties": {
+        "@id": "node/358766456",
+        "ele": "608",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "224078",
+        "gnis:state_id": "06",
+        "name": "Garnet Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1024016,
+          37.4874375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358766473",
+      "properties": {
+        "@id": "node/358766473",
+        "ele": "3351",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "224104",
+        "gnis:state_id": "06",
+        "name": "Gaylor Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2657085,
+          37.9188145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358766955",
+      "properties": {
+        "@id": "node/358766955",
+        "ele": "3271",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "224666",
+        "gnis:state_id": "06",
+        "name": "Grouse Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4898887,
+          38.1618625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358767296",
+      "properties": {
+        "@id": "node/358767296",
+        "ele": "3044",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "225080",
+        "gnis:state_id": "06",
+        "name": "Haystack Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6848958,
+          38.1057507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358768083",
+      "properties": {
+        "@id": "node/358768083",
+        "ele": "2794",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "225982",
+        "gnis:state_id": "06",
+        "name": "Iron Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4893089,
+          37.4813281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358768618",
+      "properties": {
+        "@id": "node/358768618",
+        "ele": "3145",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "226492",
+        "gnis:state_id": "06",
+        "name": "Kendrick Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6385052,
+          38.1243618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358768681",
+      "properties": {
+        "@id": "node/358768681",
+        "ele": "3341",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "226547",
+        "gnis:state_id": "06",
+        "name": "Kettle Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4287747,
+          38.1229751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358769263",
+      "properties": {
+        "@id": "node/358769263",
+        "ele": "1661",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "227050",
+        "gnis:state_id": "06",
+        "name": "Mount Lewis",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1624095,
+          38.0354779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358770141",
+      "properties": {
+        "@id": "node/358770141",
+        "ele": "1665",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "228072",
+        "gnis:state_id": "06",
+        "name": "Marble Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1282418,
+          38.0254778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358770698",
+      "properties": {
+        "@id": "node/358770698",
+        "ele": "3126",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "228566",
+        "gnis:state_id": "06",
+        "name": "Michie Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.657117,
+          38.1238061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358770817",
+      "properties": {
+        "@id": "node/358770817",
+        "ele": "3654",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "228781",
+        "gnis:state_id": "06",
+        "name": "Minarets",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1781938,
+          37.6618792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358772694",
+      "properties": {
+        "@id": "node/358772694",
+        "ele": "1826",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "230663",
+        "gnis:state_id": "06",
+        "name": "Pilot Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9357368,
+          37.7627046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358772707",
+      "properties": {
+        "@id": "node/358772707",
+        "ele": "2885",
+        "gnis:county_id": "019",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "230671",
+        "gnis:state_id": "06",
+        "name": "Pincushion Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1115122,
+          37.4727194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358772765",
+      "properties": {
+        "@id": "node/358772765",
+        "ele": "2574",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "230730",
+        "gnis:state_id": "06",
+        "name": "Pinecrest Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9274039,
+          38.2246376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358773014",
+      "properties": {
+        "@id": "node/358773014",
+        "ele": "3113",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "230984",
+        "gnis:state_id": "06",
+        "name": "Potato Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0868133,
+          38.2346403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358773138",
+      "properties": {
+        "@id": "node/358773138",
+        "ele": "2757",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "231126",
+        "gnis:state_id": "06",
+        "name": "Quartz Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4479188,
+          37.5185494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358773668",
+      "properties": {
+        "@id": "node/358773668",
+        "ele": "3274",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "231694",
+        "gnis:state_id": "06",
+        "name": "Robinson Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3868283,
+          38.1663082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358774766",
+      "properties": {
+        "@id": "node/358774766",
+        "ele": "1716",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "232607",
+        "gnis:state_id": "06",
+        "name": "Mount Savage",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6504331,
+          37.5093817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358775305",
+      "properties": {
+        "@id": "node/358775305",
+        "ele": "3612",
+        "gnis:county_id": "019",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "233139",
+        "gnis:state_id": "06",
+        "name": "Silver Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0209555,
+          37.4702187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358775552",
+      "properties": {
+        "@id": "node/358775552",
+        "ele": "1272",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "233574",
+        "gnis:state_id": "06",
+        "name": "Bullion Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0762915,
+          37.5591018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358775716",
+      "properties": {
+        "@id": "node/358775716",
+        "ele": "1277",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "233903",
+        "gnis:state_id": "06",
+        "name": "Fremont Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0762915,
+          37.5593795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358776450",
+      "properties": {
+        "@id": "node/358776450",
+        "ele": "2377",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:edited": "02/15/2007",
+        "gnis:feature_id": "235312",
+        "gnis:state_id": "06",
+        "name": "Piyau Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2638889,
+          37.4813889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358776655",
+      "properties": {
+        "@id": "node/358776655",
+        "ele": "1840",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "235586",
+        "gnis:state_id": "06",
+        "name": "Strawberry Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0321295,
+          38.1963059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358776711",
+      "properties": {
+        "@id": "node/358776711",
+        "ele": "1180",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "235643",
+        "gnis:state_id": "06",
+        "name": "Sugarloaf",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1457424,
+          37.8977032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358776714",
+      "properties": {
+        "@id": "node/358776714",
+        "ele": "2638",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "235644",
+        "gnis:state_id": "06",
+        "name": "Sugarloaf",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0094119,
+          38.1880709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358777132",
+      "properties": {
+        "@id": "node/358777132",
+        "ele": "1041",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "236083",
+        "gnis:state_id": "06",
+        "name": "Telegraph Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0371245,
+          37.5982669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358778114",
+      "properties": {
+        "@id": "node/358778114",
+        "ele": "3561",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "237073",
+        "gnis:state_id": "06",
+        "name": "Victoria Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4229411,
+          38.1676966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358778237",
+      "properties": {
+        "@id": "node/358778237",
+        "ele": "3515",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "237181",
+        "gnis:state_id": "06",
+        "name": "Walker Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4721102,
+          38.2360282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358778736",
+      "properties": {
+        "@id": "node/358778736",
+        "ele": "2637",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "237636",
+        "gnis:state_id": "06",
+        "name": "White Chief Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5348681,
+          37.4888276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795078",
+      "properties": {
+        "@id": "node/358795078",
+        "ele": "3208",
+        "gnis:county_id": "019",
+        "gnis:created": "08/01/1990",
+        "gnis:feature_id": "252121",
+        "gnis:state_id": "06",
+        "name": "Cockscomb",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0440112,
+          37.4618856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795103",
+      "properties": {
+        "@id": "node/358795103",
+        "ele": "3302",
+        "gnis:county_id": "109",
+        "gnis:created": "08/01/1990",
+        "gnis:feature_id": "252161",
+        "gnis:state_id": "06",
+        "name": "Molo Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.656839,
+          38.2343592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795126",
+      "properties": {
+        "@id": "node/358795126",
+        "ele": "3207",
+        "gnis:county_id": "039",
+        "gnis:created": "08/01/1990",
+        "gnis:feature_id": "252213",
+        "gnis:state_id": "06",
+        "name": "Red Top Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1348579,
+          37.6371581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795137",
+      "properties": {
+        "@id": "node/358795137",
+        "ele": "3571",
+        "gnis:county_id": "109",
+        "gnis:created": "08/01/1990",
+        "gnis:feature_id": "252226",
+        "gnis:state_id": "06",
+        "name": "Tower Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5476687,
+          38.1443622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795140",
+      "properties": {
+        "@id": "node/358795140",
+        "ele": "2005",
+        "gnis:county_id": "043",
+        "gnis:created": "08/01/1990",
+        "gnis:feature_id": "252231",
+        "gnis:state_id": "06",
+        "name": "Wamelo Rock",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6665445,
+          37.4860493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795160",
+      "properties": {
+        "@id": "node/358795160",
+        "ele": "3385",
+        "gnis:county_id": "051",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "252275",
+        "gnis:state_id": "06",
+        "name": "Hawksbeak Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5082228,
+          38.152418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795264",
+      "properties": {
+        "@id": "node/358795264",
+        "ele": "2672",
+        "gnis:county_id": "109",
+        "gnis:created": "08/01/1989",
+        "gnis:feature_id": "252454",
+        "gnis:state_id": "06",
+        "name": "Pothole Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3932138,
+          37.8799245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795266",
+      "properties": {
+        "@id": "node/358795266",
+        "ele": "2671",
+        "gnis:county_id": "109",
+        "gnis:created": "08/01/1989",
+        "gnis:feature_id": "252456",
+        "gnis:state_id": "06",
+        "name": "Puppy Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3454334,
+          37.8752033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795268",
+      "properties": {
+        "@id": "node/358795268",
+        "ele": "1747",
+        "gnis:county_id": "109",
+        "gnis:created": "08/01/1989",
+        "gnis:feature_id": "252464",
+        "gnis:state_id": "06",
+        "name": "North Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8965689,
+          37.9024231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795272",
+      "properties": {
+        "@id": "node/358795272",
+        "ele": "2078",
+        "gnis:county_id": "043",
+        "gnis:created": "08/01/1989",
+        "gnis:feature_id": "252487",
+        "gnis:state_id": "06",
+        "name": "Devils Dance Floor",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7360061,
+          37.7393703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795275",
+      "properties": {
+        "@id": "node/358795275",
+        "ele": "1953",
+        "gnis:county_id": "043",
+        "gnis:created": "08/01/1989",
+        "gnis:feature_id": "252494",
+        "gnis:state_id": "06",
+        "name": "Crow Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7365506,
+          37.5088259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795277",
+      "properties": {
+        "@id": "node/358795277",
+        "ele": "2964",
+        "gnis:county_id": "039",
+        "gnis:created": "08/01/1989",
+        "gnis:feature_id": "252498",
+        "gnis:state_id": "06",
+        "name": "Mount Bruce",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4929274,
+          37.5963223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795419",
+      "properties": {
+        "@id": "node/358795419",
+        "ele": "3743",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253229",
+        "gnis:state_id": "06",
+        "name": "Matterhorn Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3817005,
+          38.0930418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795500",
+      "properties": {
+        "@id": "node/358795500",
+        "ele": "3444",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253451",
+        "gnis:state_id": "06",
+        "name": "Crown Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.457665,
+          38.1107526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795504",
+      "properties": {
+        "@id": "node/358795504",
+        "ele": "2958",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253464",
+        "gnis:state_id": "06",
+        "name": "Fairview Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4037697,
+          37.8713134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795506",
+      "properties": {
+        "@id": "node/358795506",
+        "ele": "3477",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253467",
+        "gnis:state_id": "06",
+        "name": "Fletcher Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3354303,
+          37.7918721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795508",
+      "properties": {
+        "@id": "node/358795508",
+        "ele": "2547",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253475",
+        "gnis:state_id": "06",
+        "name": "Mount Gibson",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7007298,
+          37.9968643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795512",
+      "properties": {
+        "@id": "node/358795512",
+        "ele": "2877",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253483",
+        "gnis:state_id": "06",
+        "name": "Grand Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5187765,
+          37.9115887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795514",
+      "properties": {
+        "@id": "node/358795514",
+        "ele": "3502",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253488",
+        "gnis:state_id": "06",
+        "name": "Gray Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.419317,
+          37.6740975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795517",
+      "properties": {
+        "@id": "node/358795517",
+        "ele": "3114",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253494",
+        "gnis:state_id": "06",
+        "name": "Grizzly Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6210046,
+          38.1921383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795519",
+      "properties": {
+        "@id": "node/358795519",
+        "climbing:rock": "granit",
+        "ele": "2694",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253497",
+        "gnis:state_id": "06",
+        "name": "Half Dome",
+        "natural": "peak",
+        "sport": "climbing",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5328883,
+          37.7460673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795520",
+      "properties": {
+        "@id": "node/358795520",
+        "ele": "3491",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253499",
+        "gnis:state_id": "06",
+        "name": "Hanna Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4857219,
+          38.1885288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795525",
+      "properties": {
+        "@id": "node/358795525",
+        "ele": "3283",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253509",
+        "gnis:state_id": "06",
+        "name": "Mount Hoffmann",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5102032,
+          37.8468329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795527",
+      "properties": {
+        "@id": "node/358795527",
+        "ele": "3562",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253514",
+        "gnis:state_id": "06",
+        "name": "Hunewill Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4432199,
+          38.1588076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795530",
+      "properties": {
+        "@id": "node/358795530",
+        "ele": "2202",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253516",
+        "gnis:state_id": "06",
+        "name": "Jackass Butte",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3095735,
+          37.4827196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795532",
+      "properties": {
+        "@id": "node/358795532",
+        "ele": "3165",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253536",
+        "gnis:state_id": "06",
+        "name": "Madera Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3744139,
+          37.5375875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795535",
+      "properties": {
+        "@id": "node/358795535",
+        "ele": "3685",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253537",
+        "gnis:state_id": "06",
+        "name": "Mammoth Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2634841,
+          37.8552053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795537",
+      "properties": {
+        "@id": "node/358795537",
+        "ele": "3534",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253545",
+        "gnis:state_id": "06",
+        "name": "Merced Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3945904,
+          37.6352111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795543",
+      "properties": {
+        "@id": "node/358795543",
+        "ele": "3021",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253621",
+        "gnis:state_id": "06",
+        "name": "Timber Knob",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3006915,
+          37.5885485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795556",
+      "properties": {
+        "@id": "node/358795556",
+        "ele": "3310",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253648",
+        "gnis:state_id": "06",
+        "name": "Acker Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5093339,
+          38.1093631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795563",
+      "properties": {
+        "@id": "node/358795563",
+        "ele": "2114",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253671",
+        "gnis:state_id": "06",
+        "name": "Devil Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7407185,
+          37.5293804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795577",
+      "properties": {
+        "@id": "node/358795577",
+        "ele": "3338",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253686",
+        "gnis:state_id": "06",
+        "name": "Doghead Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4304413,
+          38.0518649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795580",
+      "properties": {
+        "@id": "node/358795580",
+        "ele": "2958",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253688",
+        "gnis:state_id": "06",
+        "name": "Double Rock",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5721119,
+          37.8999222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795597",
+      "properties": {
+        "@id": "node/358795597",
+        "ele": "3428",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253717",
+        "gnis:state_id": "06",
+        "name": "Ehrnbeck Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5154453,
+          38.1374182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795609",
+      "properties": {
+        "@id": "node/358795609",
+        "ele": "3277",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253750",
+        "gnis:state_id": "06",
+        "name": "Pettit Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4801656,
+          37.9851988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795617",
+      "properties": {
+        "@id": "node/358795617",
+        "ele": "3180",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253761",
+        "gnis:state_id": "06",
+        "name": "Piute Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5476687,
+          38.0335308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795624",
+      "properties": {
+        "@id": "node/358795624",
+        "ele": "2984",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253779",
+        "gnis:state_id": "06",
+        "name": "Polly Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4496049,
+          37.8543685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795630",
+      "properties": {
+        "@id": "node/358795630",
+        "ele": "3251",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253791",
+        "gnis:state_id": "06",
+        "name": "Price Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5307236,
+          38.0646415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795639",
+      "properties": {
+        "@id": "node/358795639",
+        "ele": "3385",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253802",
+        "gnis:state_id": "06",
+        "name": "Quarry Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.419052,
+          38.0449208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795643",
+      "properties": {
+        "@id": "node/358795643",
+        "ele": "2522",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253803",
+        "gnis:state_id": "06",
+        "name": "Quarter Domes",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5073834,
+          37.7604804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795644",
+      "properties": {
+        "@id": "node/358795644",
+        "ele": "3172",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253804",
+        "gnis:state_id": "06",
+        "name": "Quartzite Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4251538,
+          37.7157618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795654",
+      "properties": {
+        "@id": "node/358795654",
+        "ele": "3025",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253829",
+        "gnis:state_id": "06",
+        "name": "Schofield Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6760066,
+          38.0940845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795662",
+      "properties": {
+        "@id": "node/358795662",
+        "ele": "2475",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253838",
+        "gnis:state_id": "06",
+        "name": "Sentinel Dome",
+        "natural": "peak",
+        "viewpoint": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.58433,
+          37.7229821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795678",
+      "properties": {
+        "@id": "node/358795678",
+        "ele": "3789",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253856",
+        "gnis:state_id": "06",
+        "name": "Simmons Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.294316,
+          37.760485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795681",
+      "properties": {
+        "@id": "node/358795681",
+        "ele": "3201",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253858",
+        "gnis:state_id": "06",
+        "name": "Sing Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3873615,
+          37.5541042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795685",
+      "properties": {
+        "@id": "node/358795685",
+        "ele": "2356",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253865",
+        "gnis:state_id": "06",
+        "name": "Smith Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7351749,
+          37.9265881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795708",
+      "properties": {
+        "@id": "node/358795708",
+        "ele": "3324",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253904",
+        "gnis:state_id": "06",
+        "name": "Snow Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5712806,
+          38.1157514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795713",
+      "properties": {
+        "@id": "node/358795713",
+        "ele": "2767",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253928",
+        "gnis:state_id": "06",
+        "name": "Mount Starr King",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5176583,
+          37.7027053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795728",
+      "properties": {
+        "@id": "node/358795728",
+        "ele": "3026",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "253948",
+        "gnis:state_id": "06",
+        "name": "Sunrise Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4501589,
+          37.7935364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795962",
+      "properties": {
+        "@id": "node/358795962",
+        "ele": "3648",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254557",
+        "gnis:state_id": "06",
+        "name": "Amelia Earhart Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2882054,
+          37.7857622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795964",
+      "properties": {
+        "@id": "node/358795964",
+        "ele": "2602",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254564",
+        "gnis:state_id": "06",
+        "name": "Andrews Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6786897,
+          38.039692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358795984",
+      "properties": {
+        "@id": "node/358795984",
+        "ele": "2315",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254589",
+        "gnis:state_id": "06",
+        "name": "Basket Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.550719,
+          37.7635359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796018",
+      "properties": {
+        "@id": "node/358796018",
+        "ele": "2041",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254663",
+        "gnis:state_id": "06",
+        "name": "Mount Broderick",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5351613,
+          37.733537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796031",
+      "properties": {
+        "@id": "node/358796031",
+        "ele": "2491",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254681",
+        "gnis:state_id": "06",
+        "name": "Bunnell Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4673801,
+          37.7388152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796058",
+      "properties": {
+        "@id": "node/358796058",
+        "ele": "3308",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254724",
+        "gnis:state_id": "06",
+        "name": "Cathedral Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4054357,
+          37.8477028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796060",
+      "properties": {
+        "@id": "node/358796060",
+        "ele": "837",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254726",
+        "gnis:state_id": "06",
+        "name": "Catheys Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0660106,
+          37.4691048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796062",
+      "properties": {
+        "@id": "node/358796062",
+        "ele": "3410",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254731",
+        "gnis:state_id": "06",
+        "name": "Center Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4890554,
+          38.1446406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796068",
+      "properties": {
+        "@id": "node/358796068",
+        "ele": "2920",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254743",
+        "gnis:state_id": "06",
+        "name": "Chittenden Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6179489,
+          38.0985292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796070",
+      "properties": {
+        "@id": "node/358796070",
+        "ele": "3512",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254748",
+        "gnis:state_id": "06",
+        "name": "Mount Clark",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4284859,
+          37.6963183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796073",
+      "properties": {
+        "@id": "node/358796073",
+        "ele": "3028",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254751",
+        "gnis:state_id": "06",
+        "name": "Clouds Rest",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.489327,
+          37.7677027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796078",
+      "properties": {
+        "@id": "node/358796078",
+        "ele": "2938",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254757",
+        "gnis:state_id": "06",
+        "name": "Colby Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5393329,
+          37.9110331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796079",
+      "properties": {
+        "@id": "node/358796079",
+        "ele": "3138",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254762",
+        "gnis:state_id": "06",
+        "name": "Cold Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4273842,
+          37.950478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796081",
+      "properties": {
+        "@id": "node/358796081",
+        "ele": "3825",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254771",
+        "gnis:state_id": "06",
+        "name": "Mount Conness",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3212684,
+          37.9668679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796087",
+      "properties": {
+        "@id": "node/358796087",
+        "ele": "3362",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254792",
+        "gnis:state_id": "06",
+        "name": "Craig Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5593357,
+          38.1293623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796098",
+      "properties": {
+        "@id": "node/358796098",
+        "ele": "2592",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254814",
+        "gnis:state_id": "06",
+        "name": "Indian Rock",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5512751,
+          37.7824245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796117",
+      "properties": {
+        "@id": "node/358796117",
+        "ele": "3369",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254838",
+        "gnis:state_id": "06",
+        "name": "Johnson Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3487658,
+          37.835482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796128",
+      "properties": {
+        "@id": "node/358796128",
+        "ele": "3231",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254851",
+        "gnis:state_id": "06",
+        "name": "Keyes Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5912813,
+          38.1396397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796140",
+      "properties": {
+        "@id": "node/358796140",
+        "ele": "1936",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254903",
+        "gnis:state_id": "06",
+        "name": "Le Conte Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7073962,
+          37.9463099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796151",
+      "properties": {
+        "@id": "node/358796151",
+        "ele": "2151",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254909",
+        "gnis:state_id": "06",
+        "name": "Liberty Cap",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5323831,
+          37.7285373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796165",
+      "properties": {
+        "@id": "node/358796165",
+        "ele": "2416",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254947",
+        "gnis:state_id": "06",
+        "name": "Moraine Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4915484,
+          37.7429812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796168",
+      "properties": {
+        "@id": "node/358796168",
+        "ele": "2944",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254950",
+        "gnis:state_id": "06",
+        "name": "Moraine Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4551468,
+          37.5913233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796171",
+      "properties": {
+        "@id": "node/358796171",
+        "ele": "785",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254967",
+        "gnis:state_id": "06",
+        "name": "Negro Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0187866,
+          37.4757713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796185",
+      "properties": {
+        "@id": "node/358796185",
+        "ele": "2299",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254979",
+        "gnis:state_id": "06",
+        "name": "North Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5598861,
+          37.7568694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796187",
+      "properties": {
+        "@id": "node/358796187",
+        "ele": "3728",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "254987",
+        "gnis:state_id": "06",
+        "name": "North Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3146018,
+          37.9821454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796195",
+      "properties": {
+        "@id": "node/358796195",
+        "ele": "2467",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255003",
+        "gnis:state_id": "06",
+        "name": "Ostrander Rocks",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5934953,
+          37.6896505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796199",
+      "properties": {
+        "@id": "node/358796199",
+        "ele": "3312",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255012",
+        "gnis:state_id": "06",
+        "name": "Ragged Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3532133,
+          37.9329795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796204",
+      "properties": {
+        "@id": "node/358796204",
+        "ele": "2732",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255017",
+        "gnis:state_id": "06",
+        "name": "Rancheria Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6079479,
+          37.9590877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796223",
+      "properties": {
+        "@id": "node/358796223",
+        "ele": "3553",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255026",
+        "gnis:state_id": "06",
+        "name": "Red Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4093149,
+          37.6535431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796225",
+      "properties": {
+        "@id": "node/358796225",
+        "ele": "3039",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255027",
+        "gnis:state_id": "06",
+        "name": "Redtop",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4029175,
+          37.5460488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796228",
+      "properties": {
+        "@id": "node/358796228",
+        "ele": "3002",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255034",
+        "gnis:state_id": "06",
+        "name": "Richardson Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6926739,
+          38.0838068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796269",
+      "properties": {
+        "@id": "node/358796269",
+        "ele": "3129",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255126",
+        "gnis:state_id": "06",
+        "name": "Tenaya Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.443215,
+          37.8285358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796286",
+      "properties": {
+        "@id": "node/358796286",
+        "ele": "2733",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255151",
+        "gnis:state_id": "06",
+        "name": "Tiltill Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6660063,
+          38.0279749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796300",
+      "properties": {
+        "@id": "node/358796300",
+        "ele": "3309",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255170",
+        "gnis:state_id": "06",
+        "name": "Tuolumne Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4846073,
+          37.8752008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796314",
+      "properties": {
+        "@id": "node/358796314",
+        "ele": "3657",
+        "fixme": "location is wrong",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255198",
+        "gnis:state_id": "06",
+        "name": "Virginia Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.357938,
+          38.0657545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796318",
+      "properties": {
+        "@id": "node/358796318",
+        "ele": "3488",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255203",
+        "gnis:state_id": "06",
+        "name": "Vogelsang Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3493195,
+          37.77715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796320",
+      "properties": {
+        "@id": "node/358796320",
+        "ele": "3200",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255205",
+        "gnis:state_id": "06",
+        "name": "Volunteer Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4882218,
+          38.0060316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796328",
+      "properties": {
+        "@id": "node/358796328",
+        "ele": "2590",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255220",
+        "gnis:state_id": "06",
+        "name": "Mount Watkins",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5176622,
+          37.7827022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796329",
+      "properties": {
+        "@id": "node/358796329",
+        "ele": "3366",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255221",
+        "gnis:state_id": "06",
+        "name": "Wells Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5285013,
+          38.1229739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796333",
+      "properties": {
+        "@id": "node/358796333",
+        "ele": "2736",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255228",
+        "gnis:state_id": "06",
+        "name": "Wheeler Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7318419,
+          38.100195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796339",
+      "properties": {
+        "@id": "node/358796339",
+        "ele": "3667",
+        "fixme": "location is approximate from yahoo  and 24k topo",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255235",
+        "gnis:state_id": "06",
+        "name": "Whorl Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3842856,
+          38.0726176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796341",
+      "properties": {
+        "@id": "node/358796341",
+        "ele": "2879",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "255236",
+        "gnis:state_id": "06",
+        "name": "Wildcat Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4426622,
+          37.928256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796580",
+      "properties": {
+        "@id": "node/358796580",
+        "ele": "1588",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "256107",
+        "gnis:state_id": "06",
+        "name": "Ackerson Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8674011,
+          37.83798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796709",
+      "properties": {
+        "@id": "node/358796709",
+        "ele": "2208",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "256458",
+        "gnis:state_id": "06",
+        "name": "Bald Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7901763,
+          37.8552011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796744",
+      "properties": {
+        "@id": "node/358796744",
+        "ele": "2102",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "256485",
+        "gnis:state_id": "06",
+        "name": "Balloon Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.226791,
+          37.4646648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796748",
+      "properties": {
+        "@id": "node/358796748",
+        "ele": "3921",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "256500",
+        "gnis:state_id": "06",
+        "name": "Banner Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1951415,
+          37.6966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796781",
+      "properties": {
+        "@id": "node/358796781",
+        "ele": "3195",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "256588",
+        "gnis:state_id": "06",
+        "name": "Bath Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4646097,
+          38.0576978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796798",
+      "properties": {
+        "@id": "node/358796798",
+        "ele": "1610",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "256685",
+        "gnis:state_id": "06",
+        "name": "Bear Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8896241,
+          37.855202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796855",
+      "properties": {
+        "@id": "node/358796855",
+        "ele": "1575",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "256940",
+        "gnis:state_id": "06",
+        "name": "Big Grizzly Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8960118,
+          37.7179837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796881",
+      "properties": {
+        "@id": "node/358796881",
+        "ele": "3213",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257048",
+        "gnis:state_id": "06",
+        "name": "Bigelow Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6279492,
+          38.1490836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796907",
+      "properties": {
+        "@id": "node/358796907",
+        "ele": "3138",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257120",
+        "gnis:state_id": "06",
+        "name": "Black Hawk Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7090632,
+          38.2057481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796914",
+      "properties": {
+        "@id": "node/358796914",
+        "ele": "999",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257130",
+        "gnis:state_id": "06",
+        "name": "Black Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0074035,
+          37.6671531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796917",
+      "properties": {
+        "@id": "node/358796917",
+        "ele": "3584",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257132",
+        "gnis:state_id": "06",
+        "name": "Black Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2787674,
+          38.0388115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796937",
+      "properties": {
+        "@id": "node/358796937",
+        "ele": "2120.798",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257150",
+        "gnis:state_id": "06",
+        "name": "Black Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0970082,
+          38.027921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358796948",
+      "properties": {
+        "@id": "node/358796948",
+        "ele": "3881",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257186",
+        "gnis:state_id": "06",
+        "name": "Blacktop Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1959805,
+          37.7938186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797034",
+      "properties": {
+        "@id": "node/358797034",
+        "ele": "1715",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257494",
+        "gnis:state_id": "06",
+        "name": "Brown Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8043378,
+          37.63632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797071",
+      "properties": {
+        "@id": "node/358797071",
+        "ele": "1147",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257623",
+        "gnis:state_id": "06",
+        "name": "Buckhorn Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1240738,
+          37.6640982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797079",
+      "properties": {
+        "@id": "node/358797079",
+        "ele": "2956",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257648",
+        "gnis:state_id": "06",
+        "name": "Buena Vista Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5176512,
+          37.5941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797106",
+      "properties": {
+        "@id": "node/358797106",
+        "ele": "2781",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257737",
+        "gnis:state_id": "06",
+        "name": "Burst Rock",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8735131,
+          38.2013044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797138",
+      "properties": {
+        "@id": "node/358797138",
+        "ele": "3574",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "257844",
+        "gnis:state_id": "06",
+        "name": "Camiaca Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.324603,
+          38.0599217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797169",
+      "properties": {
+        "@id": "node/358797169",
+        "ele": "3312",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "258007",
+        "gnis:state_id": "06",
+        "name": "Carson Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1237561,
+          37.7474314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797207",
+      "properties": {
+        "@id": "node/358797207",
+        "ele": "2422",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "258087",
+        "gnis:state_id": "06",
+        "name": "Cattle Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2326264,
+          37.5182747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797334",
+      "properties": {
+        "@id": "node/358797334",
+        "ele": "1024",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "258493",
+        "gnis:state_id": "06",
+        "name": "Coalpit Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1174078,
+          37.6999303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797377",
+      "properties": {
+        "@id": "node/358797377",
+        "ele": "2913",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "258691",
+        "gnis:state_id": "06",
+        "name": "Cooper Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8571237,
+          38.2401922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797385",
+      "properties": {
+        "@id": "node/358797385",
+        "ele": "2881",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "258707",
+        "gnis:state_id": "06",
+        "name": "Copper Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1954303,
+          38.0454785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797426",
+      "properties": {
+        "@id": "node/358797426",
+        "ele": "3478",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "258885",
+        "gnis:state_id": "06",
+        "name": "Crater Crest",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3373815,
+          38.1226984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797428",
+      "properties": {
+        "@id": "node/358797428",
+        "ele": "2786",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "258892",
+        "gnis:state_id": "06",
+        "name": "Crater Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0070889,
+          37.8779838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797458",
+      "properties": {
+        "@id": "node/358797458",
+        "ele": "3141",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "258955",
+        "gnis:state_id": "06",
+        "name": "Crystal Crag",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0137418,
+          37.5910484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797499",
+      "properties": {
+        "@id": "node/358797499",
+        "ele": "3726",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259099",
+        "gnis:state_id": "06",
+        "name": "Mount Davis",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2195877,
+          37.7146546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797524",
+      "properties": {
+        "@id": "node/358797524",
+        "ele": "2666",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259244",
+        "gnis:state_id": "06",
+        "name": "Deer Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0120841,
+          37.6985447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797545",
+      "properties": {
+        "@id": "node/358797545",
+        "ele": "3028",
+        "gnis:county_id": "019",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259333",
+        "gnis:state_id": "06",
+        "name": "Devils Top",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.030125,
+          37.5216064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797548",
+      "properties": {
+        "@id": "node/358797548",
+        "ele": "2236",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259338",
+        "gnis:state_id": "06",
+        "name": "Dewey Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6523884,
+          37.7040943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797592",
+      "properties": {
+        "@id": "node/358797592",
+        "ele": "3651",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259480",
+        "gnis:state_id": "06",
+        "name": "Donohue Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2304249,
+          37.7749301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797599",
+      "properties": {
+        "@id": "node/358797599",
+        "ele": "3246",
+        "gnis:county_id": "019",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259509",
+        "gnis:state_id": "06",
+        "name": "Double Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0373463,
+          37.5104958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797637",
+      "properties": {
+        "@id": "node/358797637",
+        "ele": "1775",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259599",
+        "gnis:state_id": "06",
+        "name": "Duckwall Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1196303,
+          37.9688124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797643",
+      "properties": {
+        "@id": "node/358797643",
+        "ele": "3774",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259613",
+        "gnis:state_id": "06",
+        "name": "Dunderberg Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2743228,
+          38.0646445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797653",
+      "properties": {
+        "@id": "node/358797653",
+        "ele": "1388",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259668",
+        "gnis:state_id": "06",
+        "name": "Eagle Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7893394,
+          37.6877065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797686",
+      "properties": {
+        "@id": "node/358797686",
+        "climbing:rock": "granite",
+        "ele": "2307",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259807",
+        "gnis:state_id": "06",
+        "name": "El Capitan",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6384734,
+          37.7338305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797693",
+      "properties": {
+        "@id": "node/358797693",
+        "ele": "3779",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "259833",
+        "gnis:state_id": "06",
+        "name": "Electra Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.260421,
+          37.7049326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797754",
+      "properties": {
+        "@id": "node/358797754",
+        "ele": "3791",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260009",
+        "gnis:state_id": "06",
+        "name": "Excelsior Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3051576,
+          38.0243669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797808",
+      "properties": {
+        "@id": "node/358797808",
+        "ele": "3453",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260195",
+        "gnis:state_id": "06",
+        "name": "Flatiron Butte",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4923889,
+          38.1968619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797817",
+      "properties": {
+        "@id": "node/358797817",
+        "ele": "3816",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260214",
+        "gnis:state_id": "06",
+        "name": "Mount Florence",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3162606,
+          37.7399297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797821",
+      "properties": {
+        "@id": "node/358797821",
+        "ele": "3670",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260227",
+        "gnis:state_id": "06",
+        "name": "Foerster Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2906994,
+          37.6899327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797885",
+      "properties": {
+        "@id": "node/358797885",
+        "ele": "3340",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260453",
+        "gnis:state_id": "06",
+        "name": "Gabbro Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3123802,
+          38.0740884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797914",
+      "properties": {
+        "@id": "node/358797914",
+        "ele": "3893",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260547",
+        "gnis:state_id": "06",
+        "name": "Mount Gibbs",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2118164,
+          37.8771495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797923",
+      "properties": {
+        "@id": "node/358797923",
+        "ele": "2527",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260565",
+        "gnis:state_id": "06",
+        "name": "Gillett Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7932327,
+          38.1140837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797967",
+      "properties": {
+        "@id": "node/358797967",
+        "ele": "3149",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260749",
+        "gnis:state_id": "06",
+        "name": "Granite Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7460088,
+          38.2151919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797971",
+      "properties": {
+        "@id": "node/358797971",
+        "ele": "2835",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260765",
+        "gnis:state_id": "06",
+        "name": "Granite Stairway",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1256876,
+          37.5949375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797977",
+      "properties": {
+        "@id": "node/358797977",
+        "ele": "1108",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260780",
+        "gnis:state_id": "06",
+        "name": "Grapevine Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.124353,
+          37.8907586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358797986",
+      "properties": {
+        "@id": "node/358797986",
+        "ele": "3464",
+        "fixme": "location is not accurate",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260823",
+        "gnis:state_id": "06",
+        "name": "Grey Butte",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.347937,
+          38.051866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798007",
+      "properties": {
+        "@id": "node/358798007",
+        "ele": "2624",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "260863",
+        "gnis:state_id": "06",
+        "name": "Green Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2473531,
+          37.5688281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798109",
+      "properties": {
+        "@id": "node/358798109",
+        "ele": "2115",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "261257",
+        "gnis:state_id": "06",
+        "name": "Hells Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9174031,
+          38.0735302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798119",
+      "properties": {
+        "@id": "node/358798119",
+        "ele": "1882",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "261288",
+        "gnis:state_id": "06",
+        "name": "Hetch Hetchy Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7535093,
+          37.9649205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798155",
+      "properties": {
+        "@id": "node/358798155",
+        "ele": "1161",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "261382",
+        "gnis:state_id": "06",
+        "name": "Hobron Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1115754,
+          37.7938164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798161",
+      "properties": {
+        "@id": "node/358798161",
+        "ele": "1984",
+        "gnis:county_id": "043",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "261402",
+        "gnis:state_id": "06",
+        "name": "Hogan Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6665445,
+          37.4863271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798305",
+      "properties": {
+        "@id": "node/358798305",
+        "ele": "3350",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "261816",
+        "gnis:state_id": "06",
+        "name": "Iron Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1640227,
+          37.6113259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798313",
+      "properties": {
+        "@id": "node/358798313",
+        "ele": "3337",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "261826",
+        "gnis:state_id": "06",
+        "name": "Isberg Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3239565,
+          37.6509184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798365",
+      "properties": {
+        "@id": "node/358798365",
+        "ele": "1951",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262043",
+        "gnis:state_id": "06",
+        "name": "Junction Butte",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1962382,
+          37.5296629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798424",
+      "properties": {
+        "@id": "node/358798424",
+        "ele": "3954",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262236",
+        "gnis:state_id": "06",
+        "name": "Koip Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2018145,
+          37.8135402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798483",
+      "properties": {
+        "@id": "node/358798483",
+        "ele": "1810",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262387",
+        "gnis:state_id": "06",
+        "name": "Leaning Tower",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6476886,
+          37.7128228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798485",
+      "properties": {
+        "@id": "node/358798485",
+        "ele": "3565",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262403",
+        "gnis:state_id": "06",
+        "name": "Lee Vining Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1984854,
+          37.9724246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798493",
+      "properties": {
+        "@id": "node/358798493",
+        "ele": "3765",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262432",
+        "gnis:state_id": "06",
+        "name": "Mount Lewis",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1895928,
+          37.8427061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798517",
+      "properties": {
+        "@id": "node/358798517",
+        "ele": "2692",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262501",
+        "gnis:state_id": "06",
+        "name": "Lion Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1245739,
+          37.5652165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798564",
+      "properties": {
+        "@id": "node/358798564",
+        "ele": "1313",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262623",
+        "gnis:state_id": "06",
+        "name": "Little Grizzly Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9182347,
+          37.7118729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798616",
+      "properties": {
+        "@id": "node/358798616",
+        "ele": "3503",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262862",
+        "gnis:state_id": "06",
+        "name": "Long Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2948644,
+          37.6671559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798624",
+      "properties": {
+        "@id": "node/358798624",
+        "ele": "2543",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "262899",
+        "gnis:state_id": "06",
+        "name": "Lookout Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9476395,
+          37.7288214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798681",
+      "properties": {
+        "@id": "node/358798681",
+        "ele": "3993",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "263079",
+        "gnis:state_id": "06",
+        "name": "Mount Lyell",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2715358,
+          37.7393751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798697",
+      "properties": {
+        "@id": "node/358798697",
+        "ele": "3355",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "263144",
+        "gnis:state_id": "06",
+        "name": "Mammoth Mountain",
+        "natural": "peak",
+        "wikipedia": "en:Mammoth Mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0326342,
+          37.6307692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798826",
+      "properties": {
+        "@id": "node/358798826",
+        "ele": "2824",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "263666",
+        "gnis:state_id": "06",
+        "name": "Minaret Summit",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0604143,
+          37.656324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798858",
+      "properties": {
+        "@id": "node/358798858",
+        "ele": "3235",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "263748",
+        "gnis:state_id": "06",
+        "name": "Mono Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1718174,
+          37.9596473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358798979",
+      "properties": {
+        "@id": "node/358798979",
+        "ele": "3368",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "264350",
+        "gnis:state_id": "06",
+        "name": "Mount Olsen",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2454325,
+          38.0410341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799037",
+      "properties": {
+        "@id": "node/358799037",
+        "ele": "3919",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "264531",
+        "gnis:state_id": "06",
+        "name": "Parker Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1840364,
+          37.8140959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799134",
+      "properties": {
+        "@id": "node/358799134",
+        "ele": "1754",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "264795",
+        "gnis:state_id": "06",
+        "name": "Pinoche Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7757253,
+          37.6346533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799212",
+      "properties": {
+        "@id": "node/358799212",
+        "ele": "3354",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "264988",
+        "gnis:state_id": "06",
+        "name": "Post Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3279188,
+          37.6279905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799252",
+      "properties": {
+        "@id": "node/358799252",
+        "ele": "2902",
+        "gnis:county_id": "019",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265058",
+        "gnis:state_id": "06",
+        "name": "Pumice Butte",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0606833,
+          37.5518833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799274",
+      "properties": {
+        "@id": "node/358799274",
+        "ele": "746",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265100",
+        "gnis:state_id": "06",
+        "name": "Quartz Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0443478,
+          37.6265992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799334",
+      "properties": {
+        "@id": "node/358799334",
+        "ele": "2731",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265263",
+        "gnis:state_id": "06",
+        "name": "Red Cones",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0579086,
+          37.5885486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799404",
+      "properties": {
+        "@id": "node/358799404",
+        "ele": "3261",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265373",
+        "gnis:state_id": "06",
+        "name": "Relief Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6960071,
+          38.2368586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799408",
+      "properties": {
+        "@id": "node/358799408",
+        "ele": "2882",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265381",
+        "gnis:state_id": "06",
+        "name": "Reversed Peak",
+        "natural": "peak",
+        "note": "previously ele=2890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0993051,
+          37.8047487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799453",
+      "properties": {
+        "@id": "node/358799453",
+        "ele": "3921",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265549",
+        "gnis:state_id": "06",
+        "name": "Rodgers Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2573671,
+          37.7246539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799512",
+      "properties": {
+        "@id": "node/358799512",
+        "ele": "2804",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265703",
+        "gnis:state_id": "06",
+        "name": "Sachse Monument",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6712841,
+          38.1524165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799524",
+      "properties": {
+        "@id": "node/358799524",
+        "ele": "3223",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265718",
+        "gnis:state_id": "06",
+        "name": "Sadler Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2731939,
+          37.6385466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799540",
+      "properties": {
+        "@id": "node/358799540",
+        "ele": "3522",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265802",
+        "gnis:state_id": "06",
+        "name": "San Joaquin Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1056979,
+          37.7190993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799559",
+      "properties": {
+        "@id": "node/358799559",
+        "ele": "1600",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "265878",
+        "gnis:state_id": "06",
+        "name": "Sawmill Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9362924,
+          37.8268696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799699",
+      "properties": {
+        "@id": "node/358799699",
+        "ele": "3168",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "266298",
+        "gnis:state_id": "06",
+        "name": "Slide Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4504423,
+          38.0379761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799720",
+      "properties": {
+        "@id": "node/358799720",
+        "ele": "1175",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "266332",
+        "gnis:state_id": "06",
+        "name": "Smith Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1001862,
+          37.8007605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799781",
+      "properties": {
+        "@id": "node/358799781",
+        "ele": "1367",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "266502",
+        "gnis:state_id": "06",
+        "name": "Buckingham Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8587801,
+          37.5232696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799803",
+      "properties": {
+        "@id": "node/358799803",
+        "ele": "2105",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "266561",
+        "gnis:state_id": "06",
+        "name": "Chowchilla Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7546097,
+          37.5599345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799825",
+      "properties": {
+        "@id": "node/358799825",
+        "ele": "1250",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "266703",
+        "gnis:state_id": "06",
+        "name": "Feliciana Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.919897,
+          37.5941001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799841",
+      "properties": {
+        "@id": "node/358799841",
+        "ele": "1101",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "266772",
+        "gnis:state_id": "06",
+        "name": "Greeley Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.156021,
+          37.7429846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358799885",
+      "properties": {
+        "@id": "node/358799885",
+        "ele": "1642",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "266886",
+        "gnis:state_id": "06",
+        "name": "Kirby Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7971101,
+          37.521603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800202",
+      "properties": {
+        "@id": "node/358800202",
+        "ele": "1406",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268029",
+        "gnis:state_id": "06",
+        "name": "Sweetwater Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8854562,
+          37.5699783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800329",
+      "properties": {
+        "@id": "node/358800329",
+        "ele": "990",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268166",
+        "gnis:state_id": "06",
+        "name": "Texas Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.016849,
+          37.6927077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800359",
+      "properties": {
+        "@id": "node/358800359",
+        "ele": "1607",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268238",
+        "gnis:state_id": "06",
+        "name": "Thompson Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0690735,
+          37.999089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800397",
+      "properties": {
+        "@id": "node/358800397",
+        "ele": "3503",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268297",
+        "gnis:state_id": "06",
+        "name": "Tioga Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2468197,
+          37.9493694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800424",
+      "properties": {
+        "@id": "node/358800424",
+        "ele": "3533",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268414",
+        "gnis:state_id": "06",
+        "name": "Triple Divide Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3704219,
+          37.6318783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800435",
+      "properties": {
+        "@id": "node/358800435",
+        "ele": "1521",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268443",
+        "gnis:state_id": "06",
+        "name": "Trumbull Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.862223,
+          37.6890098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800471",
+      "properties": {
+        "@id": "node/358800471",
+        "ele": "3452",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268558",
+        "gnis:state_id": "06",
+        "name": "Two Teats",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.099864,
+          37.7124329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800536",
+      "properties": {
+        "@id": "node/358800536",
+        "ele": "3634",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268790",
+        "gnis:state_id": "06",
+        "name": "Mount Warren",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2232091,
+          37.9921461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800545",
+      "properties": {
+        "@id": "node/358800545",
+        "ele": "2105",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268821",
+        "gnis:state_id": "06",
+        "name": "Wawona Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.612933,
+          37.5560462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800547",
+      "properties": {
+        "@id": "node/358800547",
+        "ele": "1992",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "268822",
+        "gnis:state_id": "06",
+        "name": "Wawona Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6011252,
+          37.5189416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800629",
+      "properties": {
+        "@id": "node/358800629",
+        "ele": "2526",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "269112",
+        "gnis:state_id": "06",
+        "name": "Williams Butte",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1168147,
+          37.9188154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800651",
+      "properties": {
+        "@id": "node/358800651",
+        "ele": "2562",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "269195",
+        "gnis:state_id": "06",
+        "name": "Wilson Butte",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0259777,
+          37.7824309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358800684",
+      "properties": {
+        "@id": "node/358800684",
+        "ele": "3855",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "269284",
+        "gnis:state_id": "06",
+        "name": "Mount Wood",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1657026,
+          37.8090961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358802498",
+      "properties": {
+        "@id": "node/358802498",
+        "ele": "3569",
+        "gnis:county_id": "039",
+        "gnis:created": "05/01/1989",
+        "gnis:feature_id": "274668",
+        "gnis:state_id": "06",
+        "name": "Mount Ansel Adams",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.281255,
+          37.6977103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358802536",
+      "properties": {
+        "@id": "node/358802536",
+        "ele": "2850",
+        "gnis:county_id": "051",
+        "gnis:created": "06/01/1990",
+        "gnis:feature_id": "274726",
+        "gnis:state_id": "06",
+        "name": "Earthquake Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.999859,
+          37.6663236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358802538",
+      "properties": {
+        "@id": "node/358802538",
+        "ele": "2695",
+        "gnis:county_id": "051",
+        "gnis:created": "06/01/1990",
+        "gnis:feature_id": "274727",
+        "gnis:state_id": "06",
+        "name": "Dry Creek Knoll",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9859706,
+          37.6779898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358802541",
+      "properties": {
+        "@id": "node/358802541",
+        "ele": "2675",
+        "gnis:county_id": "051",
+        "gnis:created": "06/01/1990",
+        "gnis:feature_id": "274728",
+        "gnis:state_id": "06",
+        "name": "Mammoth Knolls",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9790245,
+          37.6588236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358802653",
+      "properties": {
+        "@id": "node/358802653",
+        "ele": "1609",
+        "gnis:county_id": "043",
+        "gnis:created": "09/01/1992",
+        "gnis:feature_id": "275605",
+        "gnis:state_id": "06",
+        "name": "Goat Meadow Snow Play Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6241294,
+          37.4911831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358802661",
+      "properties": {
+        "@id": "node/358802661",
+        "ele": "2608",
+        "gnis:county_id": "051",
+        "gnis:created": "09/01/1992",
+        "gnis:feature_id": "275821",
+        "gnis:state_id": "06",
+        "name": "Obsidian Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0204218,
+          37.7590983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358802878",
+      "properties": {
+        "@id": "node/358802878",
+        "ele": "3050",
+        "gnis:county_id": "051",
+        "gnis:created": "12/01/1992",
+        "gnis:feature_id": "277260",
+        "gnis:state_id": "06",
+        "name": "White Wing Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0462534,
+          37.7254882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803094",
+      "properties": {
+        "@id": "node/358803094",
+        "ele": "2132",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1654900",
+        "gnis:state_id": "06",
+        "name": "Panorama Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5526612,
+          37.7163157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803117",
+      "properties": {
+        "@id": "node/358803117",
+        "ele": "3552",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1654969",
+        "gnis:state_id": "06",
+        "name": "Stanton Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3629381,
+          38.0574213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803166",
+      "properties": {
+        "@id": "node/358803166",
+        "ele": "3976",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1655123",
+        "gnis:state_id": "06",
+        "name": "Mount Dana",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2212619,
+          37.8996488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803790",
+      "properties": {
+        "@id": "node/358803790",
+        "ele": "603",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1655805",
+        "gnis:state_id": "06",
+        "name": "Bald Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0954568,
+          37.4871597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803898",
+      "properties": {
+        "@id": "node/358803898",
+        "ele": "2827",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1655991",
+        "gnis:state_id": "06",
+        "name": "Elbow Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4026614,
+          37.9707556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803906",
+      "properties": {
+        "@id": "node/358803906",
+        "ele": "3338",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656001",
+        "gnis:state_id": "06",
+        "name": "Epidote Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3048798,
+          38.0596442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803955",
+      "properties": {
+        "@id": "node/358803955",
+        "ele": "2902",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656077",
+        "gnis:state_id": "06",
+        "name": "Hooper Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4701642,
+          37.9532551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803973",
+      "properties": {
+        "@id": "node/358803973",
+        "ele": "2496",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656091",
+        "gnis:state_id": "06",
+        "name": "Indiana Summit",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.931807,
+          37.8046528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358803984",
+      "properties": {
+        "@id": "node/358803984",
+        "ele": "1281",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656101",
+        "gnis:state_id": "06",
+        "name": "Joes Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9546263,
+          37.8852018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804036",
+      "properties": {
+        "@id": "node/358804036",
+        "ele": "1991",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656197",
+        "gnis:state_id": "06",
+        "name": "Old Inspiration Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6748898,
+          37.7057608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804039",
+      "properties": {
+        "@id": "node/358804039",
+        "ele": "3316",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656205",
+        "gnis:state_id": "06",
+        "name": "Page Peaks",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.311269,
+          38.0665885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804101",
+      "properties": {
+        "@id": "node/358804101",
+        "ele": "3222",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656252",
+        "gnis:state_id": "06",
+        "name": "Regulation Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4882215,
+          37.9876987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804127",
+      "properties": {
+        "@id": "node/358804127",
+        "ele": "3385",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656281",
+        "gnis:state_id": "06",
+        "name": "Mount Scowden",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2598775,
+          38.0082566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804137",
+      "properties": {
+        "@id": "node/358804137",
+        "ele": "3576",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656290",
+        "gnis:state_id": "06",
+        "name": "Shepherd Crest",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3179358,
+          38.0085337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804205",
+      "properties": {
+        "@id": "node/358804205",
+        "ele": "1605",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656371",
+        "gnis:state_id": "06",
+        "name": "Turtleback Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7051697,
+          37.7124272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804213",
+      "properties": {
+        "@id": "node/358804213",
+        "ele": "3756",
+        "fixme": "location is approximate from 24k topo",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656375",
+        "gnis:state_id": "06",
+        "name": "Twin Peaks",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3594965,
+          38.084025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804224",
+      "properties": {
+        "@id": "node/358804224",
+        "ele": "978",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656392",
+        "gnis:state_id": "06",
+        "name": "Virginia Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1529636,
+          37.6690982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358804231",
+      "properties": {
+        "@id": "node/358804231",
+        "ele": "3207",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1656405",
+        "gnis:state_id": "06",
+        "name": "West Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.497944,
+          37.9801987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358805927",
+      "properties": {
+        "@id": "node/358805927",
+        "ele": "2183",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1657891",
+        "gnis:state_id": "06",
+        "name": "Aeolian Buttes",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0607012,
+          37.853262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358805936",
+      "properties": {
+        "@id": "node/358805936",
+        "ele": "2693",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1657896",
+        "gnis:state_id": "06",
+        "name": "Ahwiyah Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5365514,
+          37.7507583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358805967",
+      "properties": {
+        "@id": "node/358805967",
+        "ele": "1600",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1657952",
+        "gnis:state_id": "06",
+        "name": "Ascension Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9057357,
+          37.8352026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806043",
+      "properties": {
+        "@id": "node/358806043",
+        "ele": "2531",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658000",
+        "gnis:state_id": "06",
+        "name": "Bartlett Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7743433,
+          38.0932507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806139",
+      "properties": {
+        "@id": "node/358806139",
+        "ele": "3101",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658095",
+        "gnis:state_id": "06",
+        "name": "Bodie Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0698681,
+          38.2265848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806153",
+      "properties": {
+        "@id": "node/358806153",
+        "ele": "2575",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658116",
+        "gnis:state_id": "06",
+        "name": "Boundary Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.628501,
+          37.7640916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806260",
+      "properties": {
+        "@id": "node/358806260",
+        "ele": "3122",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658304",
+        "gnis:state_id": "06",
+        "name": "Columbia Finger",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4229359,
+          37.8196475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806375",
+      "properties": {
+        "@id": "node/358806375",
+        "ele": "1053",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658442",
+        "gnis:state_id": "06",
+        "name": "Dudley Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1207424,
+          37.7477064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806392",
+      "properties": {
+        "@id": "node/358806392",
+        "ele": "2362",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658452",
+        "gnis:state_id": "06",
+        "name": "Eagle Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6148887,
+          37.7457587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806398",
+      "properties": {
+        "@id": "node/358806398",
+        "ele": "3275",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658469",
+        "gnis:state_id": "06",
+        "name": "Echo Peaks",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4029352,
+          37.8324254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806457",
+      "properties": {
+        "@id": "node/358806457",
+        "ele": "1068",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658573",
+        "gnis:state_id": "06",
+        "name": "Frank Harris Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0237954,
+          37.7843714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806467",
+      "properties": {
+        "@id": "node/358806467",
+        "ele": "3528",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658610",
+        "gnis:state_id": "06",
+        "name": "Gilcrest Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2301541,
+          38.0110346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806525",
+      "properties": {
+        "@id": "node/358806525",
+        "ele": "1846",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658676",
+        "gnis:state_id": "06",
+        "name": "Grizzly Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5507175,
+          37.7296483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806603",
+      "properties": {
+        "@id": "node/358806603",
+        "ele": "1077",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658801",
+        "gnis:state_id": "06",
+        "name": "Hunter Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0746297,
+          37.8668698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806623",
+      "properties": {
+        "@id": "node/358806623",
+        "ele": "987",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658817",
+        "gnis:state_id": "06",
+        "name": "Indian Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9332272,
+          37.4899376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806642",
+      "properties": {
+        "@id": "node/358806642",
+        "ele": "1861",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658835",
+        "gnis:state_id": "06",
+        "name": "Iron Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7343312,
+          37.5729895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806654",
+      "properties": {
+        "@id": "node/358806654",
+        "ele": "979",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658847",
+        "gnis:state_id": "06",
+        "name": "Jackass Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0240726,
+          37.7288175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806659",
+      "properties": {
+        "@id": "node/358806659",
+        "ele": "1024",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658855",
+        "gnis:state_id": "06",
+        "name": "Jenkins Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9440674,
+          37.6627085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806690",
+      "properties": {
+        "@id": "node/358806690",
+        "ele": "1760",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658919",
+        "gnis:state_id": "06",
+        "name": "Kolana Rock",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7606158,
+          37.9523816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806692",
+      "properties": {
+        "@id": "node/358806692",
+        "ele": "3958",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1658924",
+        "gnis:state_id": "06",
+        "name": "Kuna Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2076479,
+          37.8127069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806800",
+      "properties": {
+        "@id": "node/358806800",
+        "ele": "3869",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659031",
+        "gnis:state_id": "06",
+        "name": "Mount Maclure",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2815367,
+          37.7435414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806808",
+      "properties": {
+        "@id": "node/358806808",
+        "ele": "1052",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659037",
+        "gnis:state_id": "06",
+        "name": "Magoon Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8371111,
+          37.4932709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806830",
+      "properties": {
+        "@id": "node/358806830",
+        "ele": "1054",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659083",
+        "gnis:state_id": "06",
+        "name": "McCauley Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9971276,
+          37.7365948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806837",
+      "properties": {
+        "@id": "node/358806837",
+        "ele": "2428",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659110",
+        "gnis:state_id": "06",
+        "name": "Mercur Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8174002,
+          38.095751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806867",
+      "properties": {
+        "@id": "node/358806867",
+        "ele": "1044",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659159",
+        "gnis:state_id": "06",
+        "name": "Monotti Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1021304,
+          37.7315958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806877",
+      "properties": {
+        "@id": "node/358806877",
+        "ele": "1525",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659173",
+        "gnis:state_id": "06",
+        "name": "Moran Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.581553,
+          37.7365925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806891",
+      "properties": {
+        "@id": "node/358806891",
+        "ele": "1365",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659199",
+        "gnis:state_id": "06",
+        "name": "Murphy Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1612979,
+          37.9838125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358806893",
+      "properties": {
+        "@id": "node/358806893",
+        "ele": "2578",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659202",
+        "gnis:state_id": "06",
+        "name": "Nance Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7551761,
+          38.0690846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807020",
+      "properties": {
+        "@id": "node/358807020",
+        "ele": "3501",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659323",
+        "gnis:state_id": "06",
+        "name": "Ottoway Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3932019,
+          37.6421551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807066",
+      "properties": {
+        "@id": "node/358807066",
+        "ele": "3699",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659351",
+        "gnis:state_id": "06",
+        "name": "Parsons Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3076507,
+          37.7768731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807127",
+      "properties": {
+        "@id": "node/358807127",
+        "ele": "3253",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659430",
+        "gnis:state_id": "06",
+        "name": "Potter Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2801503,
+          37.8110395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807131",
+      "properties": {
+        "@id": "node/358807131",
+        "ele": "2688",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659441",
+        "gnis:state_id": "06",
+        "name": "Pywiack Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4426599,
+          37.8460354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807143",
+      "properties": {
+        "@id": "node/358807143",
+        "ele": "3382",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659455",
+        "gnis:state_id": "06",
+        "name": "Rafferty Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3557099,
+          37.8149267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807153",
+      "properties": {
+        "@id": "node/358807153",
+        "ele": "2650",
+        "gnis:county_id": "039",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "1659475",
+        "gnis:state_id": "06",
+        "name": "Mount Raymond",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.54737,
+          37.5085489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807186",
+      "properties": {
+        "@id": "node/358807186",
+        "ele": "3943",
+        "gnis:county_id": "039",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659516",
+        "gnis:state_id": "06",
+        "name": "Mount Ritter",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.1990298,
+          37.689378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807250",
+      "properties": {
+        "@id": "node/358807250",
+        "ele": "3551",
+        "gnis:county_id": "019",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659632",
+        "gnis:state_id": "06",
+        "name": "Sharktooth Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0267892,
+          37.4804963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807255",
+      "properties": {
+        "@id": "node/358807255",
+        "ele": "3601",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659637",
+        "gnis:state_id": "06",
+        "name": "Sheep Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3407142,
+          37.9824229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807258",
+      "properties": {
+        "@id": "node/358807258",
+        "ele": "930",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659644",
+        "gnis:state_id": "06",
+        "name": "Shingle Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0701856,
+          37.7507615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807279",
+      "properties": {
+        "@id": "node/358807279",
+        "ele": "2645",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659668",
+        "gnis:state_id": "06",
+        "name": "Silver Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0068094,
+          38.2051959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807290",
+      "properties": {
+        "@id": "node/358807290",
+        "ele": "3375",
+        "gnis:county_id": "051",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659681",
+        "gnis:state_id": "06",
+        "name": "Slide Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4457199,
+          38.093253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807422",
+      "properties": {
+        "@id": "node/358807422",
+        "ele": "992",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659850",
+        "gnis:state_id": "06",
+        "name": "Squaw Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.757939,
+          37.462161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807521",
+      "properties": {
+        "@id": "node/358807521",
+        "ele": "2286",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659945",
+        "gnis:state_id": "06",
+        "name": "Taft Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6046084,
+          37.7129827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807580",
+      "properties": {
+        "@id": "node/358807580",
+        "ele": "2046",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1659995",
+        "gnis:state_id": "06",
+        "name": "Three Brothers",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6151663,
+          37.7415923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807605",
+      "properties": {
+        "@id": "node/358807605",
+        "ele": "3231",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1660026",
+        "gnis:state_id": "06",
+        "name": "Tresidder Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4221028,
+          37.8296473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807653",
+      "properties": {
+        "@id": "node/358807653",
+        "ele": "3286",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1660074",
+        "gnis:state_id": "06",
+        "name": "Unicorn Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3821011,
+          37.8454811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807658",
+      "properties": {
+        "@id": "node/358807658",
+        "ele": "1930",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1660081",
+        "gnis:state_id": "06",
+        "name": "Union Point",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5879335,
+          37.7347039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807704",
+      "properties": {
+        "@id": "node/358807704",
+        "ele": "1206",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1660158",
+        "gnis:state_id": "06",
+        "name": "Wet Meadow Hill",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1637983,
+          37.9165918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358807709",
+      "properties": {
+        "@id": "node/358807709",
+        "ele": "3674",
+        "gnis:county_id": "109",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1660166",
+        "gnis:state_id": "06",
+        "name": "White Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3096005,
+          37.9468686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358809568",
+      "properties": {
+        "@id": "node/358809568",
+        "ele": "2946",
+        "gnis:county_id": "043",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "1662273",
+        "gnis:state_id": "06",
+        "name": "Medlicott Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4259926,
+          37.8563133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358816500",
+      "properties": {
+        "@id": "node/358816500",
+        "ele": "2735",
+        "gnis:county_id": "109",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "1667867",
+        "gnis:state_id": "06",
+        "name": "Mahan Peak",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6860623,
+          38.0523078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358818750",
+      "properties": {
+        "@id": "node/358818750",
+        "ele": "2346",
+        "gnis:county_id": "109",
+        "gnis:created": "04/26/1996",
+        "gnis:feature_id": "1682537",
+        "gnis:state_id": "06",
+        "name": "Bourland Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9368482,
+          38.1082516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358822263",
+      "properties": {
+        "@id": "node/358822263",
+        "gnis:county_id": "051",
+        "gnis:created": "12/02/1996",
+        "gnis:feature_id": "1702745",
+        "gnis:state_id": "06",
+        "name": "June Mountain",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0701438,
+          37.739932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358834798",
+      "properties": {
+        "@id": "node/358834798",
+        "ele": "2724",
+        "gnis:county_id": "051",
+        "gnis:created": "03/17/1999",
+        "gnis:feature_id": "1812844",
+        "gnis:state_id": "06",
+        "name": "Panorama Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.0006884,
+          37.619103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358851325",
+      "properties": {
+        "@id": "node/358851325",
+        "ele": "1297",
+        "gnis:county_id": "043",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "1958578",
+        "gnis:state_id": "06",
+        "name": "Bullion Knob",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0304556,
+          37.5343803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358851326",
+      "properties": {
+        "@id": "node/358851326",
+        "ele": "744",
+        "gnis:county_id": "043",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "1958579",
+        "gnis:state_id": "06",
+        "name": "Crows Nest",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9593389,
+          37.4710493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358851857",
+      "properties": {
+        "@id": "node/358851857",
+        "ele": "2885",
+        "gnis:county_id": "043",
+        "gnis:created": "06/18/2003",
+        "gnis:feature_id": "1988667",
+        "gnis:state_id": "06",
+        "name": "The Pinnacles",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4943271,
+          37.7621471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/561168036",
+      "properties": {
+        "@id": "node/561168036",
+        "ele": "3371",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.959761,
+          37.563137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/621780487",
+      "properties": {
+        "@id": "node/621780487",
+        "ele": "3484",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9823849,
+          37.5646848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/621780505",
+      "properties": {
+        "@id": "node/621780505",
+        "ele": "3482",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9860314,
+          37.5673066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/621780560",
+      "properties": {
+        "@id": "node/621780560",
+        "ele": "3402",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9726106,
+          37.5598426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/621780670",
+      "properties": {
+        "@id": "node/621780670",
+        "ele": "3468",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9753709,
+          37.5627586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/621780893",
+      "properties": {
+        "@id": "node/621780893",
+        "ele": "3506",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9530102,
+          37.5656584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/621780900",
+      "properties": {
+        "@id": "node/621780900",
+        "ele": "3526",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.946725,
+          37.5648072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/778917838",
+      "properties": {
+        "@id": "node/778917838",
+        "ele": "3432",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3709659,
+          37.6204174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/778934084",
+      "properties": {
+        "@id": "node/778934084",
+        "ele": "3228",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3412232,
+          37.6307982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/778934097",
+      "properties": {
+        "@id": "node/778934097",
+        "ele": "3185",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3900729,
+          37.561945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/778967594",
+      "properties": {
+        "@id": "node/778967594",
+        "ele": "3385",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3541209,
+          37.6268015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/779008196",
+      "properties": {
+        "@id": "node/779008196",
+        "ele": "3177",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3850516,
+          37.5943251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889351256",
+      "properties": {
+        "@id": "node/889351256",
+        "ele": "3582",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9480373,
+          37.5450559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889351442",
+      "properties": {
+        "@id": "node/889351442",
+        "ele": "3461",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9807938,
+          37.5617511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889351614",
+      "properties": {
+        "@id": "node/889351614",
+        "ele": "3564",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9448671,
+          37.5466317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889351724",
+      "properties": {
+        "@id": "node/889351724",
+        "ele": "3143",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9721467,
+          37.5301747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889351751",
+      "properties": {
+        "@id": "node/889351751",
+        "ele": "3465",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9607922,
+          37.5316401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889351896",
+      "properties": {
+        "@id": "node/889351896",
+        "ele": "3544",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9830906,
+          37.5537976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889352360",
+      "properties": {
+        "@id": "node/889352360",
+        "ele": "3508",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9600921,
+          37.540314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889352384",
+      "properties": {
+        "@id": "node/889352384",
+        "ele": "3505",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9619634,
+          37.5401056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889352595",
+      "properties": {
+        "@id": "node/889352595",
+        "ele": "3629",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9422225,
+          37.5499527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/889352757",
+      "properties": {
+        "@id": "node/889352757",
+        "ele": "3563",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9784297,
+          37.5549533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2360047421",
+      "properties": {
+        "@id": "node/2360047421",
+        "name": "Artist Point",
+        "natural": "peak",
+        "source": "USGS Topo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6757665,
+          37.7119092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2384222218",
+      "properties": {
+        "@id": "node/2384222218",
+        "name": "Royal Arches",
+        "natural": "peak",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5924556,
+          37.7560056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2428464171",
+      "properties": {
+        "@id": "node/2428464171",
+        "ele": "3004",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4056266,
+          37.5819249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2428498368",
+      "properties": {
+        "@id": "node/2428498368",
+        "ele": "2792",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4468579,
+          37.5851107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2428498377",
+      "properties": {
+        "@id": "node/2428498377",
+        "ele": "2643",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4366022,
+          37.5619467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2428498437",
+      "properties": {
+        "@id": "node/2428498437",
+        "ele": "2660",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4334265,
+          37.5895308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2428498467",
+      "properties": {
+        "@id": "node/2428498467",
+        "ele": "2327",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4552994,
+          37.5443314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2428498541",
+      "properties": {
+        "@id": "node/2428498541",
+        "ele": "2784",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.414231,
+          37.5696849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2428498646",
+      "properties": {
+        "@id": "node/2428498646",
+        "ele": "2363",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4484603,
+          37.5513121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429138831",
+      "properties": {
+        "@id": "node/2429138831",
+        "ele": "2859",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4335216,
+          37.6311581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429138874",
+      "properties": {
+        "@id": "node/2429138874",
+        "ele": "3335",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4151437,
+          37.6349128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429162650",
+      "properties": {
+        "@id": "node/2429162650",
+        "ele": "3446",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4195425,
+          37.6567282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429162683",
+      "properties": {
+        "@id": "node/2429162683",
+        "ele": "2999",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4282114,
+          37.6203656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429162704",
+      "properties": {
+        "@id": "node/2429162704",
+        "ele": "3381",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4298851,
+          37.6561676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429162770",
+      "properties": {
+        "@id": "node/2429162770",
+        "ele": "2756",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4475415,
+          37.642424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429175814",
+      "properties": {
+        "@id": "node/2429175814",
+        "ele": "3461",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4007885,
+          37.6483698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429175842",
+      "properties": {
+        "@id": "node/2429175842",
+        "ele": "3308",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.388386,
+          37.6469605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429175891",
+      "properties": {
+        "@id": "node/2429175891",
+        "ele": "3434",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3921625,
+          37.6278273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429175910",
+      "properties": {
+        "@id": "node/2429175910",
+        "ele": "3532",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3864333,
+          37.6354225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429189311",
+      "properties": {
+        "@id": "node/2429189311",
+        "ele": "3452",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4142425,
+          37.6663095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429189423",
+      "properties": {
+        "@id": "node/2429189423",
+        "ele": "3466",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.40508,
+          37.6668352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429199717",
+      "properties": {
+        "@id": "node/2429199717",
+        "ele": "3007",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4011962,
+          37.5638518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429200740",
+      "properties": {
+        "@id": "node/2429200740",
+        "ele": "3061",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3910676,
+          37.5722104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429201499",
+      "properties": {
+        "@id": "node/2429201499",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4102299,
+          37.6201276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429221358",
+      "properties": {
+        "@id": "node/2429221358",
+        "ele": "2749",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4114744,
+          37.5988633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429221439",
+      "properties": {
+        "@id": "node/2429221439",
+        "ele": "3206",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3815195,
+          37.6069044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429230499",
+      "properties": {
+        "@id": "node/2429230499",
+        "ele": "3083",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3961966,
+          37.6137198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429242169",
+      "properties": {
+        "@id": "node/2429242169",
+        "ele": "2848",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4033634,
+          37.5726109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429251232",
+      "properties": {
+        "@id": "node/2429251232",
+        "ele": "2976",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4204861,
+          37.6269266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429318133",
+      "properties": {
+        "@id": "node/2429318133",
+        "ele": "3005",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3616075,
+          37.6561525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429347031",
+      "properties": {
+        "@id": "node/2429347031",
+        "ele": "2933",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3506738,
+          37.6635499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429366789",
+      "properties": {
+        "@id": "node/2429366789",
+        "ele": "2986",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3078979,
+          37.6371156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429378979",
+      "properties": {
+        "@id": "node/2429378979",
+        "ele": "2994",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3445701,
+          37.6168501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429379789",
+      "properties": {
+        "@id": "node/2429379789",
+        "ele": "3213",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3247218,
+          37.6196876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429390840",
+      "properties": {
+        "@id": "node/2429390840",
+        "ele": "2909",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3230266,
+          37.6041013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429390841",
+      "properties": {
+        "@id": "node/2429390841",
+        "ele": "2911",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3462009,
+          37.6025195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429400474",
+      "properties": {
+        "@id": "node/2429400474",
+        "ele": "2832",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3436893,
+          37.5913755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429427835",
+      "properties": {
+        "@id": "node/2429427835",
+        "ele": "3112",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3611451,
+          37.6117585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2429444475",
+      "properties": {
+        "@id": "node/2429444475",
+        "ele": "2994",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3689031,
+          37.5956511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2948203010",
+      "properties": {
+        "@id": "node/2948203010",
+        "name": "Cathedral Rocks",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.640447,
+          37.7153039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3653662037",
+      "properties": {
+        "@id": "node/3653662037",
+        "name": "Dozier Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4310185,
+          37.8490912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3736959974",
+      "properties": {
+        "@id": "node/3736959974",
+        "name": "Stately Pleasure Dome",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4580959,
+          37.8383705
+        ]
+      }
+    }
+  ]
+}
