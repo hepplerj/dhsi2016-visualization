@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Aim of this worksheet
 
 This worksheet will walk you through the basics of using the Leaflet package in R. Once you've finished the worksheet, you should have a good familiarity with how the package works 
-Let's start with our setup. You should already have the dependencies necessary to run Leaflet, so we'll load up the packages we need.
+Let's start with our setup. You should already have the dependencies necessary to run Leaflet and some of the other functions in this worksheet, so we'll load up the packages we need.
 
 ```{r, eval=F}
 library(leaflet)
@@ -23,3 +23,4 @@ library(ggplot2)
 library(ggmap)
 library(magrittr)
 ```
+
