@@ -1,0 +1,12 @@
+---
+title: "htmlwidgets Worksheet"
+author: "Jason Heppler"
+date: "June 9, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+http://rstudio.github.io/dygraphs/index.html

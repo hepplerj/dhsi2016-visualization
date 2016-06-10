@@ -1,0 +1,25 @@
+---
+title: "Introduction to Leaflet"
+author: "Jason Heppler"
+date: "June 10, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Aim of this worksheet
+
+This worksheet will walk you through the basics of using the Leaflet package in R. Once you've finished the worksheet, you should have a good familiarity with how the package works 
+Let's start with our setup. You should already have the dependencies necessary to run Leaflet, so we'll load up the packages we need.
+
+```{r, eval=F}
+library(leaflet)
+library(RColorBrewer)
+library(rgdal)
+library(raster)
+library(ggplot2)
+library(ggmap)
+library(magrittr)
+```

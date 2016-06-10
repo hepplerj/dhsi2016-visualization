@@ -1,0 +1,43 @@
+<div class="fluid-row">
+  <div class="col-sm-12">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./">Worksheets for Visualization in 
+            the Humanities with R</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://lincolnmullen.com">Lincoln Mullen</a> | <a 
+              href="http://jasonheppler.org">Jason Heppler</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="fluid-row">
+  <div class="col-sm-3">
+    <div class="list-group">
+      <a class="list-group-item" href="./">Home</a>
+      <a class="list-group-item" href="01-Intro_to_ggplot_worksheet.html">Intro to ggplot</a>
+      <a class="list-group-item" href="02-Advanded_ggplot_worksheet.html">Advanced ggplot</a>
+      <a class="list-group-item" href="data-manipulation.html">Data Manipulation</a>
+      <a class="list-group-item" href="more-data-manipulation.html">More Data Manipulation</a>
+      <a class="list-group-item" href="exploratory-data-analysis.html">Exploratory Data Analysis</a>
+    </div>
+    <script>
+      // manage active state of toc based on current page
+    var href = window.location.pathname;
+    href = href.substr(href.lastIndexOf('/') + 1);
+    if (href === "" || href === "index.html")
+      href = "./";
+    $('a.list-group-item[href="' + href + '"]').addClass('active');
+    </script>
+  </div>
+  <div class="col-sm-9 content-body">
+    <p>
+      <a id="download-link" download class="btn btn-warning">
+        Download this worksheet as a .Rmd
+      </a>
+    </p>

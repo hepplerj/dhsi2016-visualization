@@ -1,0 +1,27 @@
+<footer>
+  <p>
+    <small>
+      These materials are &copy; 2016 <a 
+        href="http://lincolnmullen.com">Lincoln Mullen</a> and <a 
+        href="http://jasonheppler.org">Jason A. Heppler</a>. Licensed <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin-left: 5px;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+    </small>
+  </p>
+</footer>
+
+  </div>
+</div>
+
+<script>
+  $.each($("img"), function(i, v) {
+    var img = $(v);
+    img.wrap("<a href='" + img.attr("src") + "'>");
+  })
+
+  url = window.location.toString();
+  if (url === "http://github.com/hepplerj/dhsi2016-visualization/worksheets/") {
+    $("#download-link").remove();
+  } else {
+    $("#download-link").attr("href", url.replace('.html', '.Rmd'));
+  }
+</script>

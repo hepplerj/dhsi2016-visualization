@@ -1,0 +1,20 @@
+html_document:
+  theme: united
+  self_contained: no
+  lib_dir: libs
+  fig_caption: yes
+  fig_width: 7.5
+  fig_height: 5.25
+  fig_retina: 1
+  highlight: pygments
+  toc: yes
+  toc_depth: 3
+  pandoc_args: [
+    "--smart"
+  ]
+  css:
+    - custom.css
+  includes:
+    in_header: includes/in_header.html
+    before_body: includes/before_body.html
+    after_body: includes/after_body.html
