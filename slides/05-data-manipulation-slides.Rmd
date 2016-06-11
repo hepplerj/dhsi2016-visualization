@@ -94,13 +94,9 @@ dijon_prices %>% select(-citation, -citation_date)
 - `group_by()` and `summarize()`: aggregate data in groups
 - `gather()` and `spread()`: switch between wide and long data
 
-## Folow along
+## Folow along / exercise
 
-Open the file `worksheets/intro-data-manipulation.Rmd`. Follow along to practice the grammar of data manipulation.
-
-## Exercise: data manipulation worksheet
-
-With a partner, ppen the file `worksheets/data-manipulation-worksheet.Rmd`. Work to complete the exercises.
+Open the file `worksheets/05-introduction-data-manipulation.Rmd`. Follow along to practice the grammar of data manipulation.
 
 ## Exercise: working with data
 
