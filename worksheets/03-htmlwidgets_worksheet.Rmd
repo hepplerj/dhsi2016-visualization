@@ -9,4 +9,51 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+We'll load a few necessary packages.
+
+```{r}
+library(htmlwidgets)
+library(historydata)
+library(dplyr)
+library(tidyr)
+```
+
+Let's start working with the `early_colleges` data.
+
+## Interactive Tables with `DT`
+
+## Interactive Plots with `Plotly`
+
+## Interactive Networks with `networkD3` and `visNetwork`
+
+## Exploring Timeseries with `dygraphs`
+
 http://rstudio.github.io/dygraphs/index.html
+
+## Create your own plots
+
+Create three plots below, using any of the `historydata` datasets or your own. Your three plots should try to make some kind of humanistic observation. For each plot, include no more than three sentences explaining what you think the plot means. You should try to make each plot as informative as possible by using different geoms and including as many variables as is reasonable in each plot. Be sure to add good titles and labels.
+
+(@) Plot 1
+
+```{r}
+
+```
+
+> Explanation of plot 1.
+
+(@) Plot 2
+
+```{r}
+
+```
+
+> Explanation of plot 2.
+
+(@) Plot 3
+
+```{r}
+
+```
+
+> Explanation of plot 3.
