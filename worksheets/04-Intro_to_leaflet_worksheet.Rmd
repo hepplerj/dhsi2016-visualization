@@ -129,7 +129,7 @@ leaflet(calif_superfund_sites) %>%
 
 ## Plotting Shapefiles with Leaflet
 
-Like `ggplot`, we can display shapefiles with Leaflet. The initial process is similar to using shapefiles in `ggplot`. We'll once again use the [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html) package to load the shapefile.
+Like `ggplot`, we can display shapefiles with Leaflet. The initial process is similar to using shapefiles in `ggplot`. As a reminder, we'll use the [rgdal](https://cran.r-project.org/web/packages/rgdal/index.html) package to load the shapefile. We will also apply the WGS84 projection, the World Geodetic System standard used in cartography, geodesy, and navigation (WGS84 is also known as WGS 1984 and EPSG:4326).
 
 ```{r}
 library(rgdal)
@@ -139,7 +139,7 @@ openspace <- readOGR(dsn = "./data/openspace", layer = "openspace-ownership")
 openspace_wgs84 <- spTransform(openspace, CRS("+proj=longlat +datum=WGS84"))
 ```
 
-Now that our shapefile is available, we can easily add this to a Leaflet map.
+Now that our shapefile is available and transformed into WGS84, we can easily add this to a Leaflet map.
 
 ```{r}
 leaflet() %>%
@@ -232,11 +232,7 @@ You can also create your own tilesets by, roughly:
 
 ## Create your own plots
 
-There are a number of data sets available to you. You may try using `early_colleges`, `catholic_dioceses`, `naval_promotions`, `quasi_war`, `sarna`, `us_national_population`, or `us_state_populations` (all from the historydata package), `gapminder` (from the gapminder package), or `europop` (from the europop package).
-
-Create three plots below, using any one or more than one of those datasets or your own. Your three plots should try to make some kind of humanistic observation. For each plot, include no more than three sentences explaining what you think the plot means. You should try to make each plot as informative as possible by using different geoms and including as many variables as is reasonable in each plot. Be sure to add good titles and labels.
-
-You may wish to look at the [R Graph Catalog](http://shiny.stat.ubc.ca/r-graph-catalog/) to find examples of what you can do with ggplot along with sample code.
+Create three plots below, using any of the `historydata` datasets or your own. Your three plots should try to make some kind of humanistic observation. For each plot, include no more than three sentences explaining what you think the plot means. You should try to make each plot as informative as possible by using different geoms and including as many variables as is reasonable in each plot. Be sure to add good titles and labels.
 
 (@) Plot 1
 
