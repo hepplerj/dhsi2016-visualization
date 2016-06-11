@@ -1,0 +1,49 @@
+blockquote {
+  margin-left: 25px;
+  font-style: italic;
+}
+
+em {
+  font-style: italic;
+}
+strong {
+  background-color: #faf4c1;
+  padding: .2rem .4rem;
+  display: inline-block;
+  line-height: 1;
+  border-radius: 2px;
+  color: #202020;
+}
+
+#smaller {
+  font-size: 15px;
+}
+
+h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.javascript {
+  font-size: 50%;
+}

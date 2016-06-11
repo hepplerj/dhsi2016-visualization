@@ -11,8 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Aim of this worksheet
 
-This worksheet will walk you through the basics of using the Leaflet package in R. Once you've finished the worksheet, you should have a good familiarity with how the package works 
-Let's start with our setup. You should already have the dependencies necessary to run Leaflet and some of the other functions in this worksheet, so we'll load up the packages we need.
+This worksheet will walk you through the basics of using the Leaflet package in R. Once you've finished the worksheet, you should have a good familiarity with making interactive maps. Be sure to consult the [Leaflet documentation](https://cran.r-project.org/web/packages/leaflet/leaflet.pdf).
+
+Let's start with our setup. You should already have the dependencies necessary to run Leaflet and some of the other functions in this worksheet, so we'll load up the packages we need. (If not, use `install.packages()` to get them.)
 
 ```{r, eval=F}
 library(leaflet)
@@ -22,5 +23,64 @@ library(raster)
 library(ggplot2)
 library(ggmap)
 library(magrittr)
+library(dplyr)
 ```
 
+Let's also load up some datasets for us to work with.
+
+```{r, message=FALSE, warning=FALSE}
+# install.packages(gapminder)
+library(gapminder) # global data on life expectancy, GDP per capita, and population by country
+data("gapminder")
+
+# devtools::install_github("lmullen/historydata")
+library(historydata) # datasets for historians
+data("paulist_missions")
+data("naval_promotions")
+data("judges_appointments")
+data("us_national_population")
+data("us_state_populations")
+data("early_colleges")
+
+# some subsets of data we'll try working with
+california_population <- subset(us_state_populations,
+                                state %in% "California")
+
+western_state_populations <- subset(us_state_populations, 
+                        state %in% c("Arizona", "California", "Colorado", "Idaho",
+                                     "Montana", "Nevada", "New Mexico", "Oregon",
+                                     "Utah", "Washington",  "Wyoming"))
+
+# devtools::install_github('mdlincoln/europop')
+library(europop) # https://github.com/mdlincoln/europop
+data("europop")
+
+# superfund sites CSV
+calif_superfund_sites <- read.csv("./data/calif_superfund_sites.csv")
+# We'll clean up the Superfund data a bit.
+keeps <- c("NAME", "CITY","STATE","ZIP","LONGITUDE","LATITUDE","STATUSDATE","HRS_SCORE")
+calif_superfund_sites <- calif_superfund_sites[keeps]
+calif_superfund_sites <- subset(calif_superfund_sites,
+                                  state %in% "CA")
+calif_superfund_sites$date <- as.Date(calif_superfund_sites$STATUSDATE, "%m/%d/%Y")
+calif_superfund_sites <- setNames(calif_superfund_sites, tolower(names(calif_superfund_sites)))
+# install.packages(lubridate)
+library(lubridate)
+calif_superfund_sites$year <- year(calif_superfund_sites$date)
+```
+
+```{r}
+library(leaflet)
+
+spectral <- brewer.pal(11, "Spectral")  %>% rev()
+hrsScore <- colorBin(spectral, calif_superfund_sites$hrs_score)
+
+leaflet(calif_superfund_sites) %>%
+  addProviderTiles("CartoDB.Positron") %>%
+  addCircleMarkers(radius = ~hrs_score/5, stroke=TRUE, weight = 0.5, color = "black",
+                   fillColor = ~hrsScore(hrs_score), fillOpacity = 0.7, clusterOptions = markerClusterOptions()) %>%
+  addLegend(title = "HRS Score", pal = hrsScore,
+            values = ~hrs_score, opacity = 1, position="bottomleft")
+```
+
+(@) We could enhance the view into this map further by clustering the points together as you zoom out. How would you achieve that? (Hint: see ?leaflet.)

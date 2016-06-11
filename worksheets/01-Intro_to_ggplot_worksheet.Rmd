@@ -25,7 +25,7 @@ library(dplyr) # for tidy data
 library(gapminder) # global data on life expectancy, GDP per capita, and population by country
 data("gapminder")
 
-# install.packages(historydata)
+# devtools::install_github("lmullen/historydata")
 library(historydata) # datasets for historians
 data("paulist_missions")
 data("naval_promotions")
