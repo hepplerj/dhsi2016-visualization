@@ -1,0 +1,21 @@
+.double {
+  column-gap: -150px;
+}
+
+.right-flow {
+  margin-left: -200px;
+}
+
+.one-col-image-wide {
+  margin-left: -40px;
+  width: 510px;
+  z-index: 2000;
+}
+
+.important-point {
+  font-size: 1.5em;
+}
+
+.slide::after {
+  display: none;
+}
