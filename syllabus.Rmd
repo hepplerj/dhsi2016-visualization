@@ -94,7 +94,8 @@ An introduction to the Shiny web framework for R, which allows users to create a
 
 ### Afternoon
 
-- Lab: Hands-on with networks
+- More Shiny
+- Lab: Creating a Shiny app for your project
 
 ### Readings
 
