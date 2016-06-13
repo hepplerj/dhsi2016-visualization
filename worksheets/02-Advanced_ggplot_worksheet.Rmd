@@ -62,11 +62,9 @@ library(lubridate)
 superfund_sites$year <- year(superfund_sites$date)
 ```
 
-## Theming
+## Theming Visualizations 
 
-Visualizations 
-
-We can take a look at how theming works in `ggplot` by looking at the source for the default `theme_gray()`.
+Theming allows us to change *non-data* visual elements in our charts and graphics. We can take a look at how theming works in `ggplot` by looking at the source for the default `theme_gray()`.
 
 ```{r}
 theme_gray <- function(base_size = 12) {
@@ -104,7 +102,7 @@ theme_gray <- function(base_size = 12) {
 }
 ```
 
-(@) Create your own theme using the `theme_gray()` template above. Adjust colors, font sizes, and so on to see what various edits do to the theme.
+(@) Create your own theme using the `theme_gray()` template above. Don't feel like you need to change everything, just try adjusting a few things like  font sizes, and so on to see what various edits do to the theme. Then, apply the theme to a chart and see how things change.
 
 ```{r}
 
