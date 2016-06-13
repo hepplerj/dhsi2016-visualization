@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Introduction to ggplot: Visualization in the Humanities</title>
+  <title>Jason A. Heppler</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,16 +58,34 @@
 <body class="shower list">
 
   <header class="caption">
-    <h1>Introduction to ggplot: Visualization in the Humanities</h1>
-    <p>Jason A. Heppler</p>
+    <h1>Jason A. Heppler</h1>
+    <p>Introduction to ggplot: Visualization in the Humanities</p>
   </header>
 
     <section class="slide level1 titlepage">
-    <h1>Introduction to ggplot: Visualization in the Humanities</h1>
-    <h2>Jason A. Heppler <br> </h2>
+    <h1>Jason A. Heppler</h1>
+    <h2>Introduction to ggplot: Visualization in the Humanities <br> </h2>
   </section>
     
   
+<section id="why-computer-programming-at-all" class="slide level2">
+<h2>Why computer programming at all?</h2>
+<ol type="1">
+<li class="fragment next">You understand more deeply what computers do to your data. By understanding the workings of an algorithm, you can better justify your scholarly claims as well as understand the ways algorithms may distort.</li>
+<li class="fragment next">The work of data analysis becomes transparent. Since we’re writing code, we can trace the steps we made to make something.</li>
+<li class="fragment next">We start to correct for the problem of tools shaping research questions. In other words, we build the tool to fit our questions.</li>
+</ol>
+</section>
+<section id="why-r" class="slide level2">
+<h2>Why R?</h2>
+<ol type="1">
+<li class="fragment next">The range of libraries is quite large.</li>
+<li class="fragment next">The language is designed for data analysis.</li>
+<li class="fragment next">R has a set of tools available that makes writing code easier.</li>
+<li class="fragment next">There are several humanities scholars using R.</li>
+<li class="fragment next">Reproducable research.</li>
+</ol>
+</section>
 <section id="visualization-design" class="slide level2">
 <h2>Visualization Design</h2>
 <p>Edward Tufte suggests that graphical excellence is defined by “that which gives the viewer the <strong>greatest number of ideas</strong>, in the <strong>shortest time</strong>, with the <strong>least ink</strong>, the <strong>smallest space</strong>, and which <strong>tells the truth about data</strong>.”</p>
@@ -81,6 +99,15 @@
 </center>
 </section>
 <section id="visualization-design-2" class="slide level2">
+<h2>Visualization Design</h2>
+<p>Edward Tufte suggests that graphical excellence is defined by “that which gives the viewer the <strong>greatest number of ideas</strong>, in the <strong>shortest time</strong>, with the <strong>least ink</strong>, the <strong>smallest space</strong>, and which <strong>tells the truth about data</strong>.”</p>
+<p><span id="smaller"> Edward Tufte, <em>The Visual Display of Quantitative Information</em> (Graphics Press, 1983). </span></p>
+</section>
+<section id="visualization-deception" class="slide level2">
+<h2>Visualization Deception</h2>
+<p><img src="assets/img/foxnews.jpeg" alt="Bad visualization design." /></p>
+</section>
+<section id="visualization-design-3" class="slide level2">
 <h2>Visualization Design</h2>
 <p>Edward Tufte suggests that graphical excellence is defined by “that which gives the viewer the <strong>greatest number of ideas</strong>, in the <strong>shortest time</strong>, with the <strong>least ink</strong>, the <strong>smallest space</strong>, and which <strong>tells the truth about data</strong>.”</p>
 <p><span id="smaller"> Edward Tufte, <em>The Visual Display of Quantitative Information</em> (Graphics Press, 1983). </span></p>
@@ -112,7 +139,7 @@ us_state_populations %&gt;%<span class="st"> </span><span class="kw">head</span>
 <h2>The Grammar of Graphics</h2>
 <p>A visualization concept created by Leland Wilkinson (1999) to <strong>define</strong> the elements of statistical graphics:</p>
 <blockquote>
-<p>… describes the meaning of what we do when we construct statistical graphics … More than a taxonomy … Computational system based on the underlying mathematics of representing statistical functions of data.</p>
+<p>. . . describes the meaning of what we do when we construct statistical graphics . . . More than a taxonomy . . . Computational system based on the underlying mathematics of representing statistical functions of data.</p>
 </blockquote>
 </section>
 <section id="the-grammar-of-graphics-1" class="slide level2">
@@ -160,8 +187,7 @@ us_state_populations %&gt;%<span class="st"> </span><span class="kw">head</span>
 <p><strong>data</strong>: data as an R data frame</p>
 <p><strong>coordinate system</strong>: describe 2D space data is projected onto, such as Cartesian coordinates, polar coordinates, and map projections.</p>
 <p><strong>geoms</strong>: describe the geometric objects that represent data, such as points, lines, and polygons.</p>
-<p><strong>aesthetics</strong>: describe visual characteristics that represent data, such as position, size, color, and shape.</p>
-<p><strong>scales</strong>: for each aesthetic, describe how visual characteristic is converted to display values, such as log scales, color scales, size scales, and shape scales.</p>
+<p><strong>aesthetics</strong>: describe visual characteristics that represent data, such as position, size, color, and shape. <strong>scales</strong>: for each aesthetic, describe how visual characteristic is converted to display values, such as log scales, color scales, size scales, and shape scales.</p>
 <p><strong>stats</strong>: describe statistical transformations such as counts, means, medians, or regression lines.</p>
 <p><strong>facets</strong>: describe how data is split into small multiples.</p>
 </section>
@@ -182,7 +208,7 @@ us_state_populations %&gt;%<span class="st"> </span><span class="kw">head</span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="kw">aes</span>(<span class="dt">fill =</span> state), <span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>)</code></pre></div>
 <h3 id="using-geometric-objects">using <strong>geometric objects</strong>:</h3>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">geom_bar</span>(<span class="kw">aes</span>(<span class="dt">fill =</span> state), <span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>)</code></pre></div>
-<p><span id="smaller"> See the <code>ggplot</code> <a href="http://docs.ggplot2.org/current/geom_bar.html"><code>geom_bar</code> documentation</a> for the differences in the <code>stat</code> flag. By default, <code>geom_bar</code> uses “stat=‘count’” which sets the height of the bar proportion to the number of cases in each group. Since we want the height of the bars to represent values in the data, we use “stat=‘identity’” to map a variable to the <code>y</code> aesthetic. </span></p>
+<p><span id="smaller"> See the <a href="http://docs.ggplot2.org/current/geom_bar.html">geom_bar documentation</a> for the differences in the <code>stat</code> flag. By default, <code>geom_bar</code> uses <code>stat='count'</code> which sets the height of the bar proportion to the number of cases in each group. Since we want the height of the bars to represent values in the data, we use <code>stat='identity'</code> to map a variable to the <code>y</code> aesthetic. </span></p>
 </section>
 <section id="the-grammar-of-graphics-8" class="slide level2">
 <h2>The Grammar of Graphics</h2>
@@ -249,7 +275,7 @@ us_state_populations %&gt;%<span class="st"> </span><span class="kw">head</span>
 </section>
 <section id="simplicity" class="slide level2">
 <h2>Simplicity</h2>
-<p>R makes the production of these graphics simple. Note that we were able to create a barchart with two lines of code. If I wanted to reproduce that example in JavaScript using the D3.js library, it would be something like this:</p>
+<p><code>ggplot</code> makes the production of these graphics simple. Note that we were able to create a barchart with two lines of code. If I wanted to reproduce that example in JavaScript using the D3.js library, it would be something like this:</p>
 </section>
 <section id="section" class="slide level2 fullscreen">
 <h2></h2>
@@ -320,18 +346,18 @@ us_state_populations %&gt;%<span class="st"> </span><span class="kw">head</span>
 Let’s look at another ridiculous example.
 </center>
 </section>
-<section id="the-ggplot-grammar" class="slide level2">
-<h2>The ggplot Grammar</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> us_state_populations, <span class="kw">aes</span>(<span class="dt">x=</span>year, <span class="dt">y=</span>population)) +<span class="st"> </span>
+<section id="scatterplot-of-population" class="slide level2">
+<h2>Scatterplot of Population</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> us_state_populations, <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population)) +<span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>()</code></pre></div>
 <p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-12-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
-<section id="scatterplot-of-population" class="slide level2">
-<h2>Scatterplot of Population</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">populations &lt;-<span class="st"> </span><span class="kw">ggplot</span>(<span class="dt">data =</span> us_state_populations, 
+<section id="scatterplot-of-population---size" class="slide level2">
+<h2>Scatterplot of Population - Size</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> us_state_populations, 
                       <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population, 
-                          <span class="dt">size=</span>population, <span class="dt">alpha=</span>population))
-populations +<span class="st"> </span><span class="kw">geom_point</span>()</code></pre></div>
+                          <span class="dt">size=</span>population, <span class="dt">alpha=</span>population)) +
+<span class="st">  </span><span class="kw">geom_point</span>()</code></pre></div>
 <p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-13-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scatterplot-of-population---smooth" class="slide level2">
@@ -392,22 +418,21 @@ p +<span class="st"> </span><span class="kw">geom_line</span>(<span class="kw">a
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>)</code></pre></div>
 <p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-20-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
-<section id="scales-2" class="slide level2">
-<h2>Scales</h2>
+<section id="scales---grey" class="slide level2">
+<h2>Scales - Grey</h2>
 <p>Setting a grey scale, for example:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(western_subset, <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population, <span class="dt">fill =</span> state)) +
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>) +
 <span class="st">  </span><span class="kw">scale_fill_grey</span>()</code></pre></div>
 <p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-21-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
-<section id="scales-3" class="slide level2">
-<h2>Scales</h2>
+<section id="scales---discrete" class="slide level2">
+<h2>Scales - Discrete</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(western_subset, <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population, <span class="dt">fill =</span> state)) +
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>) +
 <span class="st">  </span><span class="kw">scale_fill_discrete</span>(<span class="dt">name =</span> <span class="st">&quot;State&quot;</span>, <span class="dt">label =</span> <span class="kw">c</span>(<span class="st">&quot;AZ&quot;</span>, <span class="st">&quot;CA&quot;</span>, <span class="st">&quot;CO&quot;</span>, <span class="st">&quot;ID&quot;</span>,
                                                 <span class="st">&quot;MT&quot;</span>, <span class="st">&quot;NV&quot;</span>, <span class="st">&quot;NM&quot;</span>, <span class="st">&quot;OR&quot;</span>, 
-                                                <span class="st">&quot;UT&quot;</span>, <span class="st">&quot;WA&quot;</span>, <span class="st">&quot;WY&quot;</span>)) +
-<span class="st">  </span><span class="kw">scale_x_continuous</span>(<span class="dt">name =</span> <span class="st">&quot;Year&quot;</span>)</code></pre></div>
+                                                <span class="st">&quot;UT&quot;</span>, <span class="st">&quot;WA&quot;</span>, <span class="st">&quot;WY&quot;</span>)) </code></pre></div>
 <p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-22-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scales---changing-fill-scale" class="slide level2">
@@ -423,7 +448,7 @@ p +<span class="st"> </span><span class="kw">geom_line</span>(<span class="kw">a
 <p>Let’s look at a new set of data.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">data</span>(paulist_missions)
 paulist_missions %&gt;%<span class="st"> </span><span class="kw">head</span>(<span class="dv">5</span>)</code></pre></div>
-<pre><code>## Source: local data frame [5 x 11]
+<pre><code>## Source: local data frame [5 x 17]
 ## 
 ##   mission_number                        church          city state
 ##            (int)                         (chr)         (chr) (chr)
@@ -432,8 +457,10 @@ paulist_missions %&gt;%<span class="st"> </span><span class="kw">head</span>(<sp
 ## 3              3             St. Mary&#39;s Church Hollidaysburg    PA
 ## 4              4 Church of St. John Evangelist     Johnstown    PA
 ## 5              5            St. Peter&#39;s Church      New York    NY
-## Variables not shown: start_date (chr), end_date (chr), confessions (int),
-##   converts (int), order (chr), lat (dbl), long (dbl)</code></pre>
+## Variables not shown: date_start (date), date_end (date), year (dbl),
+##   decade (chr), duration_days (int), duration_weeks (fctr), confessions
+##   (int), converts (int), order (chr), lat (dbl), long (dbl), volume (int),
+##   page (int)</code></pre>
 </section>
 <section id="scales---y-reversed-1" class="slide level2">
 <h2>Scales - Y-Reversed</h2>

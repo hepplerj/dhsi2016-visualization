@@ -3,10 +3,6 @@ title: "Introduction to ggplot2"
 author: "Jason A. Heppler & Lincoln Mullen"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Aim of this worksheet
 
 After completing the worksheet you should have a grasp of [ggplot2](http://ggplot2.org/) library for making plots using the grammar of graphics. You will find the [ggplot2](http://ggplot2.org/) documentation and [R Graph Catalog](http://shiny.stat.ubc.ca/r-graph-catalog/) helpful.
@@ -71,7 +67,7 @@ The grammar of graphics says that variables in our data can be mapped to aesthet
 
 Let's make a basic plot. We should first look at our data and understand what it is we're working with and what we'd like to create. 
 
-```{r, fig.height = 6, fig.align = 'center', message = F, warning = F}
+```{r}
 paulist_missions
 ```
 
@@ -84,7 +80,11 @@ ggplot(paulist_missions, aes(x = confessions, y = converts)) +
 
 (@) What are the three parts of the plot above?
 
+> 
+
 (@) What is the relationship between each row in the dataset and each glyph in the plot?
+
+> 
 
 (@) Modify the plot so that converts appear on the x-axis and confessions on the y-axis.
 
@@ -151,7 +151,7 @@ ggplot(paulist_missions, aes(x = converts)) +
 
 Line graphs are great for illustrating trends in data. Let's look at population growth in the United States using the `us_national_population` dataset.
 
-```{r, fig.height = 6, fig.align = 'center', message = F, warning = F}
+```{r}
 us_national_population
 ```
 

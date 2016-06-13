@@ -1,6 +1,6 @@
 ---
-title       : "Introduction to ggplot: Visualization in the Humanities"
-author      : Jason A. Heppler
+author       : "Introduction to ggplot: Visualization in the Humanities"
+title      : Jason A. Heppler
 maketitle: true
 output:
   rmdshower::shower_presentation:
@@ -9,24 +9,19 @@ output:
     theme: material
 ---
 
-```{r setup, include=FALSE}
-library(dplyr)
-library(ggplot2)
-```
-
-## Why R?
-
-> 1. The range of libraries is stunningly large.
-> 2. The language is designed for data analysis.
-> 3. R has a set of tools available that makes writing code easier.
-> 4. There are several humanities scholars using R.
-> 5. Reproducable research
-
 ## Why computer programming at all?
 
 > 1. You understand more deeply what computers do to your data. By understanding the workings of an algorithm, you can better justify your scholarly claims as well as understand the ways algorithms may distort.
 > 2. The work of data analysis becomes transparent. Since we're writing code, we can trace the steps we made to make something.
 > 3. We start to correct for the problem of tools shaping research questions. In other words, we build the tool to fit our questions.
+
+## Why R?
+
+> 1. The range of libraries is quite large.
+> 2. The language is designed for data analysis.
+> 3. R has a set of tools available that makes writing code easier.
+> 4. There are several humanities scholars using R.
+> 5. Reproducable research.
 
 ## Visualization Design
 
@@ -47,6 +42,18 @@ Edward Tufte, *The Visual Display of Quantitative Information* (Graphics Press, 
 **data**
 </span>
 </center>
+
+## Visualization Design
+
+Edward Tufte suggests that graphical excellence is defined by "that which gives the viewer the **greatest number of ideas**, in the **shortest time**, with the **least ink**, the **smallest space**, and which **tells the truth about data**."
+
+<span id="smaller">
+Edward Tufte, *The Visual Display of Quantitative Information* (Graphics Press, 1983).
+</span>
+
+## Visualization Deception
+
+![Bad visualization design.](assets/img/foxnews.jpeg)
 
 ## Visualization Design
 
@@ -84,7 +91,7 @@ ggplot(data = us_state_populations, aes(x = year, y = population, fill = state))
 
 A visualization concept created by Leland Wilkinson (1999) to **define** the elements of statistical graphics:
 
-> ... describes the meaning of what we do when we construct statistical graphics ... More than a taxonomy ... Computational system based on the underlying mathematics of representing statistical functions of data.
+> . . . describes the meaning of what we do when we construct statistical graphics . . . More than a taxonomy . . . Computational system based on the underlying mathematics of representing statistical functions of data.
 
 ## The Grammar of Graphics
 
@@ -148,7 +155,6 @@ ggplot(data = us_state_populations, aes(x = year, y = population)) +
 **geoms**: describe the geometric objects that represent data, such as points, lines, and polygons.
 
 **aesthetics**: describe visual characteristics that represent data, such as position, size, color, and shape. 
-
 **scales**: for each aesthetic, describe how visual characteristic is converted to display values, such as log scales, color scales, size scales, and shape scales.
 
 **stats**: describe statistical transformations such as counts, means, medians, or regression lines.
@@ -192,7 +198,7 @@ geom_bar(aes(fill = state), stat="identity")
 ```
 
 <span id="smaller">
-See the `ggplot` [`geom_bar` documentation](http://docs.ggplot2.org/current/geom_bar.html) for the differences in the `stat` flag. By default, `geom_bar` uses "stat='count'" which sets the height of the bar proportion to the number of cases in each group. Since we want the height of the bars to represent values in the data, we use "stat='identity'" to map a variable to the `y` aesthetic.
+See the [geom_bar documentation](http://docs.ggplot2.org/current/geom_bar.html) for the differences in the `stat` flag. By default, `geom_bar` uses `stat='count'` which sets the height of the bar proportion to the number of cases in each group. Since we want the height of the bars to represent values in the data, we use `stat='identity'` to map a variable to the `y` aesthetic.
 </span>
 
 ---
@@ -219,7 +225,7 @@ unique    | Remove duplicated observations
 
 ## Simplicity
 
-R makes the production of these graphics simple. Note that we were able to create a barchart with two lines of code. If I wanted to reproduce that example in JavaScript using the D3.js library, it would be something like this:
+`ggplot` makes the production of these graphics simple. Note that we were able to create a barchart with two lines of code. If I wanted to reproduce that example in JavaScript using the D3.js library, it would be something like this:
 
 ## {.fullscreen}
 
@@ -292,20 +298,20 @@ function type(d) {
 Let's look at another ridiculous example.
 </center>
 
-## The ggplot Grammar
+## Scatterplot of Population
 
 ```{r fig.align='center', message=F, warning=F}
-ggplot(data = us_state_populations, aes(x=year, y=population)) + 
+ggplot(data = us_state_populations, aes(x = year, y = population)) + 
   geom_point()
 ```
 
-## Scatterplot of Population
+## Scatterplot of Population - Size
 
-```{r fig.align='center', fig.height = 6, message=F, warning=F}
-populations <- ggplot(data = us_state_populations, 
+```{r fig.align='center', fig.height = 4, message=F, warning=F}
+ggplot(data = us_state_populations, 
                       aes(x = year, y = population, 
-                          size=population, alpha=population))
-populations + geom_point()
+                          size=population, alpha=population)) +
+  geom_point()
 ```
 
 ## Scatterplot of Population - Smooth
@@ -366,7 +372,7 @@ Scale specifications have the form of `scale_<aesthetic>_<scalename>()`:
 
 Let's start with what we know and look at population growth in the western U.S.
 
-```{r, fig.align='center', fig.height=4, message=F, warning=F}
+```{r, fig.align='center', fig.height=3, message=F, warning=F}
 western_subset <- subset(us_state_populations, 
                         state %in% c("Arizona", "California", "Colorado", "Idaho",
                                      "Montana", "Nevada", "New Mexico", "Oregon",
@@ -375,7 +381,7 @@ ggplot(data = western_subset, aes(x = year, y = population, fill=state)) +
   geom_bar(stat="identity")
 ```
 
-## Scales
+## Scales - Grey
 
 Setting a grey scale, for example:
 
@@ -385,16 +391,14 @@ ggplot(western_subset, aes(x = year, y = population, fill = state)) +
   scale_fill_grey()
 ```
 
-## Scales
+## Scales - Discrete
 
 ```{r, fig.align='center', fig.height=4, message=F, warning=F}
 ggplot(western_subset, aes(x = year, y = population, fill = state)) +
   geom_bar(stat="identity") +
   scale_fill_discrete(name = "State", label = c("AZ", "CA", "CO", "ID",
                                                 "MT", "NV", "NM", "OR", 
-                                                "UT", "WA", "WY")) +
-  scale_x_continuous(name = "Year")
-  
+                                                "UT", "WA", "WY")) 
 ```
 
 ## Scales - Changing Fill Scale
@@ -417,7 +421,7 @@ paulist_missions %>% head(5)
 
 ## Scales - Y-Reversed
   
-```{r, fig.height=5, fig.align='center', message=F, warning=F}
+```{r, fig.height=4.5, fig.align='center', message=F, warning=F}
 ggplot(paulist_missions, aes(x = confessions, y = converts)) +
   geom_point(alpha = 0.5, shape = 1) +
   labs(title = "Paulist Missions",
@@ -438,7 +442,7 @@ ggplot(paulist_missions, aes(x = confessions, y = converts)) +
 
 ## Same Data, Plotted Differently
 
-```{r, fig.height=5, fig.align='center', message=F, warning=F}
+```{r, fig.height=4.5, fig.align='center', message=F, warning=F}
 ggplot(paulist_missions,
        aes(x = state, y = confessions, size = converts)) +
   geom_jitter(position = position_jitter(w=.2, h=.1), shape = 21) +

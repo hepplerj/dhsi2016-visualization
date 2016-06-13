@@ -3,10 +3,6 @@ title: "Intermediate ggplot2"
 author: "Jason A. Heppler and Lincoln Mullen"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Aim of this worksheet
 
 After completing this worksheet you should have a fuller grasp of the [ggplot2](http://ggplot2.org/) package. You will find the [ggplot2](http://ggplot2.org/) documentation and [R Graph Catalog](http://shiny.stat.ubc.ca/r-graph-catalog/) helpful.

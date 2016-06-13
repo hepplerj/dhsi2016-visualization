@@ -9,11 +9,6 @@ output:
     theme: material
 ---
 
-```{r setup, include=FALSE}
-library(dplyr)
-library(ggplot2)
-```
-
 ```{r, echo=FALSE}
 # superfund sites CSV
 # superfund_sites <- read.csv("data/superfund_sites.csv") %>%
@@ -35,7 +30,6 @@ library(ggplot2)
 2.  Labels and Annotation
 3.  Network Visualization
 4.  Mapping
-5.  Reproducable Research
 
 ## Theming
 

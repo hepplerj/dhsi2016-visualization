@@ -5,15 +5,11 @@ date: "June 10, 2016"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Aim of this worksheet
 
 This worksheet will walk you through the basics of using the Leaflet package in R. Once you've finished the worksheet, you should have a familiarity with making interactive maps using the R Leaflet package. Be sure to consult the [Leaflet documentation](https://cran.r-project.org/web/packages/leaflet/leaflet.pdf).
 
-Let's start with our setup. You should already have the dependencies necessary to run Leaflet and some of the other functions in this worksheet, so we'll load up the packages we need. (If not, use `install.packages()` to get them.)
+Let's start with our data setup. You should already have the dependencies necessary to run Leaflet and some of the other functions in this worksheet, so we'll load up the packages we need. (If not, use `install.packages()` to get them.)
 
 ```{r, eval=F}
 library(leaflet)

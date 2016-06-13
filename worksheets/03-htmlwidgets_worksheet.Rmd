@@ -5,9 +5,11 @@ date: "June 9, 2016"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Aim of this worksheet
+
+After completing the worksheet you should have a grasp of the various features of the [htmlwidgets](http://htmlwidgets.org) library for making interactive visualizations. You will find the [ggplot2](http://htmlwidgets.org) documentation helpful.
+
+You are free to attempt working through this worksheet with your own data, but we encourage you for now to use the sample datasets contained in `historydata` until the final section of this worksheet.
 
 We'll load a few necessary packages.
 
@@ -18,15 +20,82 @@ library(dplyr)
 library(tidyr)
 ```
 
+First, read through the documentation: `?htmlwidgets`.
+
 Let's start working with the `early_colleges` data.
+
+```{r}
+library(historydata)
+data("early_colleges")
+```
 
 ## Interactive Tables with `DT`
 
+We'll build an interactive table of our college data.
+
+```{r}
+library(DT)
+datatable(early_colleges)
+```
+
+(@) Change the default number of entries shown.
+
+```{r}
+
+```
+
+(@) Try reordering the columns into a new order.
+
+```{r}
+
+```
+
 ## Interactive Plots with `Plotly`
+
+Let's try working with Plotly to build an interactive chart of wholesale market prices in Dijon between 1568 to 1630. 
+
+Load up the necessary data and package.
+
+```{r}
+library(plotly)
+data("dijon_prices")
+```
+
+Read up on the documentation of `?dijon_prices` to get a sense of what's included in the dataset.
+
+(@) Create a chart of wholesale food items measured by `pint`. Select which glyphs would work best for visualizing the data, making sure to use good labels and useful mouseover information. You may need to draw on your knowledge of `dyplyr`.
+
+```{r}
+ggiris <- qplot(Petal.Width, Sepal.Length, data = iris, color = Species)
+ggplotly(ggiris)
+```
+
+(@) Give the chart some color: color the points by the `commodity`.
+
+```{r}
+
+```
+
+(@) Good news! Plotly works with `ggplot2` as well! Read up [on the documentation](https://plot.ly/ggplot2) and try recreating the above chart using the `ggplot2` Plotly syntax.
 
 ## Interactive Networks with `networkD3` and `visNetwork`
 
+
+
 ## Exploring Timeseries with `dygraphs`
+
+`dygraphs` lets us create interactive timeseries charts. These charts can be especially useful for zooming in on specific timeframes to more closely explore your data.
+
+One tricky thing about using `dygraphs` is it expects your data to be a [timeseries object](TODO). If you're using your own data, you'll need to read up on using [xts](https://cran.rstudio.com/web/packages/xts/index.html).
+
+ggplot
+(@) Just for fun, try adding `coord_polar()` to the chart above.
+
+```{r}
+
+```
+
+Neat, huh?
 
 http://rstudio.github.io/dygraphs/index.html
 

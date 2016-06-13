@@ -9,10 +9,6 @@ output:
     theme: material
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## htmlwidgets
 
 An R package for integrating JavaScript libraries into R visualizations. Visualizations can appear in RMarkdown documents, RStudio, or Shiny web applications (more on this on Day 4).
@@ -32,7 +28,7 @@ library(htmlwidgets)
 
 ## Specific Widgets
 
-You won't need the entire `htmlwidgets` package. We can call upon specific packages:
+You don't need the entire `htmlwidgets` package. We can call upon specific packages:
 
 ```{r, eval=FALSE}
 # time series charts
@@ -118,8 +114,6 @@ ggplot() +
        x = "Date",
        y = "Minimum and Maxium Temperature (C)")
 ```
-
-(@) Just for fun, try adding `coord_polar()` to the chart above. Neat, huh?
 
 ## dygraphs
 
