@@ -19,3 +19,8 @@
 .slide::after {
   display: none;
 }
+
+img {
+  width: 700px;
+  height: auto;
+}

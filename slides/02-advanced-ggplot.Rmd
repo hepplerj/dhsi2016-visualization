@@ -1,6 +1,6 @@
 ---
-title: "Intermediate ggplot: Humanities Visualization in R"
-author: Jason A. Heppler
+author: "Intermediate ggplot: Humanities Visualization in R"
+title: Jason A. Heppler
 maketitle: true
 output:
   rmdshower::shower_presentation:
@@ -36,8 +36,6 @@ output:
 Themes allow you to control the appearance of **non-data** elements. We can build graphics that are visually appealing through the modification, addition, or subtraction of titles, axis labels, tick marks, and legends. 
 
 Consult the [theming documentation](http://docs.ggplot2.org/current/theme.html) to see all the available options.
-
----
 
 ## Theming
 
@@ -350,8 +348,10 @@ tudors %>% head(5)
 ## Extending - geom_net
 
 ```{r, message = F, warning = F}
-tudor.network <- ggplot(data = tudors, aes(from_id = person_2, to_id = person_1))
-tudor.network + geom_net(label = TRUE, linewidth=0.5, 
+tudor.network <- ggplot(tudors, aes(from_id = person_2, to_id = person_1))
+
+tudor.network + 
+  geom_net(label = TRUE, linewidth=0.5, 
            fontsize = 3, size = 6,
            ecolour = ifelse(tudors$relationship == "child", "#a6cee3", "#b2df8a")) +
   theme_net() +
@@ -378,7 +378,7 @@ basemap <- get_map(location="United States", zoom = 4, maptype = "terrain")
 
 ggmap(basemap) +
   geom_point(data=superfund_sites, aes(x=longitude, y=latitude), color="#894D46", size = 0.5, na.rm = TRUE) +
-  coord_map() +
+  coord_map() 
   theme(axis.ticks.y = element_blank(),axis.text.y = element_blank(), # get rid of x ticks/text
                  axis.ticks.x = element_blank(),axis.text.x = element_blank(), # get rid of y ticks/text
                  plot.title = element_text(lineheight=.8, face="bold", vjust=1))

@@ -20,7 +20,21 @@ library(rgdal)
 library(raster)
 library(ggplot2)
 library(ggmap)
-library(magrittr)
+library(dplyr)
+library(tidyr)
+```
+
+## Leaflet - Getting Started
+
+```{r, eval=FALSE}
+# install.packages("leaflet")
+
+library(leaflet)
+library(RColorBrewer)
+library(ggplot2)
+library(ggmap)
+library(dplyr)
+library(tidyr)
 ```
 
 ## Leaflet
@@ -51,13 +65,30 @@ Leaflet features include:
 - Easily render spatial objects from the `sp` package, or data frames with latitude/longitude columns
 - Use map bounds and mouse events to drive Shiny app logic
 
-## Leaflet
+## Data Prep
 
-```{r eval = F}
-install.packages("leaflet")
-# or the dev version
-# devtools::install_github("rstudio/leaflet")
+```{r, eval=F}
+# Superfund sites CSV
+calif_superfund_sites <- read.csv("./data/calif_superfund_sites.csv")
+# We'll clean up the Superfund data a bit, selecting only
+# the columns we want to keep.
+calif_superfund_sites <- calif_superfund_sites %>% 
+  select(NAME, CITY,STATE,ZIP,LONGITUDE,LATITUDE,STATUSDATE,HRS_SCORE)
+# Let's filter out California sites.
+calif_superfund_sites <- subset(calif_superfund_sites,
+                                  STATE %in% "CA")
+# Convert the date into an R friendly version.
+calif_superfund_sites$date <- as.Date(calif_superfund_sites$STATUSDATE, "%m/%d/%Y")
+# Lowercase the variable names.
+calif_superfund_sites <- setNames(calif_superfund_sites, tolower(names(calif_superfund_sites)))
+# Extract the year to a new column
+library(lubridate)
+calif_superfund_sites$year <- year(calif_superfund_sites$date)
 ```
+
+## {.fullscreen}
+
+<center><p style="font-size: 40px; font-family: monospaced;">https://goo.gl/tRM95l</p></center>
 
 ## Leaflet
 
@@ -66,22 +97,22 @@ Let's recall our process for building maps in `ggplot`.
 ```{r}
 library(ggplot2)
 library(ggmap)
-map <- ggplot() + 
-           geom_point(data=superfund_sites, 
+map_basic <- ggplot() + 
+           geom_point(data=calif_superfund_sites, 
                       aes(x=longitude, y=latitude))
 ```
 
 ## {.fullscreen}
 
 ```{r, echo=F, message=F, warning=F}
-map
+map_basic
 ```
 
 ## Leaflet
 
 ```{r}
-basemap <- get_map(location = "United States",
-                      zoom=4,
+basemap <- get_map(location = "California",
+                      zoom=6,
                       maptype = "terrain",
                       source="google",
                       color="bw")
@@ -90,15 +121,15 @@ basemap <- get_map(location = "United States",
 ## Leaflet
 
 ```{r}
-map <- ggmap(basemap) + 
-      geom_point(data=superfund_sites, aes(x=longitude, y=latitude), 
-                 size = 0.5, alpha = 0.4, color = "#e34a33")
+superfund_map <- ggmap(basemap) + 
+      geom_point(data=calif_superfund_sites, aes(x=longitude, y=latitude), 
+                 size = 2, alpha = 0.4, color = "#e34a33")
 ```
 
 ## {.fullscreen}
 
 ```{r, echo=F, warning=F,message=F}
-map
+superfund_map
 ```
 
 ## Leaflet
@@ -117,7 +148,8 @@ Let's try mapping the first thirty Superfund sites in the dataset.
 
 ```{r, eval = T}
 superfund_leaflet <- leaflet() %>% addTiles() %>%
-      addCircleMarkers(data = superfund_sites[1:30,])
+      addCircleMarkers(data = calif_superfund_sites)
+superfund_leaflet
 ```
 
 ## {.fullscreen}
@@ -130,175 +162,39 @@ superfund_leaflet
 
 ```{r}
 leaflet() %>% addTiles() %>%
-      addCircleMarkers(data=superfund_sites[1:20,],
+      addCircleMarkers(data=calif_superfund_sites,
                        stroke = FALSE, fillOpacity = 0.5, radius=8,
-                       popup=~paste("<strong>Site:</strong>", site.name,
+                       popup=~paste("<strong>Site:</strong>", name,
                        "<br>",
-                       "<strong>Date Added:</strong>", date,
-                       "<br>",
-                       "<strong>County:</strong>", county))
+                       "<strong>Date Added:</strong>", year))
 ```
 
-## Leaflet
-
-Let's look at another dataset.
-
-```{r, eval=F}
-peaks <- readOGR("./data/peaks.geojson", "OGRGeoJSON", verbose=FALSE)
-# Yosemite boundary shapefile
-yosemite <- readOGR("./data/yosemite", "yosemite", verbose = FALSE)
-```
-
-## Yosemite
-
-```{r, echo = F}
-leaflet() %>% addTiles() %>% 
-  addPolylines(data = yosemite)
-```
-
-## Leaflet
-
-```{r, eval = FALSE}
-# Convert peak values to numeric
-peaks <- subset(peaks, peaks@data$ele != "0")
-peaks@data$ele <- round(as.numeric(levels(peaks@data$ele))[peaks@data$ele] * 3.28084)
-
-# Make map of peaks
-leaflet() %>%
-  addTiles() %>%
-  addCircleMarkers(data=peaks, weight=0, radius=8, fillOpacity=0.6,
-                   popup=~paste("Name: ", name, "<br>Elevation: ", ele, "feet")) %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="red")
-```
-
-## {.fullscreen}
-
-```{r, echo=FALSE}
-# Convert peak values to numeric
-peaks <- subset(peaks, peaks@data$ele != "0")
-peaks@data$ele <- round(as.numeric(levels(peaks@data$ele))[peaks@data$ele] * 3.28084)
-
-# Make map of peaks
-leaflet() %>%
-  addTiles() %>%
-  addCircleMarkers(data=peaks, weight=0, radius=8, fillOpacity=0.6,
-                   popup=~paste("Name: ", name, "<br>Elevation: ", ele, "feet")) %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="red")
-```
-
-## Leaflet
-
-```{r, eval=FALSE}
-leaflet() %>%
-  addTiles() %>%
-  addCircleMarkers(data=peaks, weight=0, radius=~ele/1000, fillOpacity=0.6,
-                   popup=~paste("Name: ", name, "<br>Elevation: ", ele, "feet")) %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="red")
-```
-
-## {.fullscreen}
-
-```{r, echo = F}
-leaflet() %>%
-  addTiles() %>%
-  addCircleMarkers(data=peaks, weight=0, radius=~ele/1000, fillOpacity=0.6,
-                   popup=~paste("Name: ", name, "<br>Elevation: ", ele, "feet")) %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="red")
-```
-
-## Leaflet - Color and Legends
-
-```{r, eval = F}
-# Create the color scale from elevation
-# using the ColorBrewer palette
-spectral <- brewer.pal(11, "Spectral")  %>% rev()
-eleColor <- colorBin(spectral, peaks@data$ele)
-
-leaflet(peaks) %>%
-  addTiles() %>%
-  addCircleMarkers(weight=0, radius=~ele/1000, fillOpacity=0.7, color = ~eleColor(ele),
-                   popup=~paste("Name: ", name, "<br>Elevation: ", ele)) %>%
-    addLegend(title = "Peak Elevation", pal = eleColor,
-            values = ~ele, opacity = 1, position="bottomleft") %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="blue")
-```
-
-## {.fullscreen}
-
-```{r, echo = F}
-# Create the color scale from elevation
-# using the ColorBrewer palette
-spectral <- brewer.pal(11, "Spectral")  %>% rev()
-eleColor <- colorBin(spectral, peaks@data$ele)
-
-leaflet(peaks) %>%
-  addTiles() %>%
-  addCircleMarkers(weight=0, radius=~ele/1000, fillOpacity=0.7, color = ~eleColor(ele),
-                   popup=~paste("Name: ", name, "<br>Elevation: ", ele)) %>%
-    addLegend(title = "Peak Elevation", pal = eleColor,
-            values = ~ele, opacity = 1, position="bottomleft") %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="blue")
-```
-
-## Leaflet - Basemaps
-
-```{r, eval = F}
-leaflet() %>%
-  addProviderTiles("CartoDB.Positron") %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="black")
-```
-
-## {.fullscreen}
-
-```{r, echo = F}
-leaflet() %>%
-  addProviderTiles("CartoDB.Positron") %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="black")
-```
-
-## {.fullscreen}
-
-```{r, echo = F}
-leaflet(peaks) %>%
-  addProviderTiles("CartoDB.Positron") %>%
-  addCircleMarkers(weight=0, radius=~ele/1000, fillOpacity=0.7, color = ~eleColor(ele),
-                   popup=~paste("Name: ", name, "<br>Elevation: ", ele)) %>%
-    addLegend(title = "Peak Elevation", pal = eleColor,
-            values = ~ele, opacity = 1, position="bottomleft") %>%
-  addPolylines(data=yosemite, fillOpacity = 0, dashArray=c(10,10), fill=FALSE, color="blue")
-```
-
-## Layer Switcher
-
-Assign a **group** to each of the layers for a layer selector to work.
-
-## {.fullscreen}
+## Leaflet - Size
 
 ```{r}
-mapbox <- "http://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoiam9zaHBlcHBlciIsImEiOiJuTWdrY2k4In0.HCCXtgU04scrTB_-ON4kjA"
+leaflet() %>% addTiles() %>%
+      addCircleMarkers(data=calif_superfund_sites,
+                       stroke = FALSE, fillOpacity = 0.5, radius=~hrs_score/4,
+                       popup=~paste("<strong>Site:</strong>", name,
+                       "<br>",
+                       "<strong>Date Added:</strong>", year))
+```
 
-leaflet(peaks) %>%
-  addCircleMarkers(weight = 0, radius = ~ele/1000, 
-                   fillOpacity = 0.7, color = ~eleColor(ele),
-                   popup = ~paste("Name: ", name, "<br>Elevation: ", ele),
-                   group = "Peaks") %>%
-  
-  addLegend(title = "Peak Elevation", pal = eleColor,
-            values = ~ele, opacity = 1, position="bottomright") %>%
-  
-  addPolylines(data = yosemite, fillOpacity = 0, 
-               dashArray = c(10,10), fill = FALSE, color = "blue",
-               group = "Yosemite") %>%
-  
-  # Add basemaps
-  addProviderTiles("CartoDB.Positron", group="Simple") %>%
-  addProviderTiles("Esri.WorldImagery", group="Satellite") %>%
-  addTiles(urlTemplate = mapbox, group="Outdoors") %>%
-  
-  # Add layer switcher
-   addLayersControl(
-    baseGroups = c("Simple", "Satellite", "Outdoors"),
-    overlayGroups = c("Peaks","Yosemite"),
-    options = layersControlOptions(collapsed = FALSE)
-  )
+## Leaflet - Colors
+
+```{r}
+pal <- colorNumeric(
+  palette = "Reds",
+  domain = calif_superfund_sites$year
+)
+
+leaflet() %>% addTiles() %>%
+      addCircleMarkers(data=calif_superfund_sites,
+                       stroke = FALSE, 
+                       fillColor = ~pal(year),
+                       fillOpacity = 0.5, 
+                       radius=~hrs_score/4,
+                       popup=~paste("<strong>Site:</strong>", name,
+                                    "<br>",
+                                    "<strong>Date Added:</strong>", year))
 ```

@@ -112,28 +112,42 @@
 <p>Edward Tufte suggests that graphical excellence is defined by “that which gives the viewer the <strong>greatest number of ideas</strong>, in the <strong>shortest time</strong>, with the <strong>least ink</strong>, the <strong>smallest space</strong>, and which <strong>tells the truth about data</strong>.”</p>
 <p><span id="smaller"> Edward Tufte, <em>The Visual Display of Quantitative Information</em> (Graphics Press, 1983). </span></p>
 </section>
+<section id="installing-packages" class="slide level2">
+<h2>Installing Packages</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># First, download from CRAN:</span>
+<span class="kw">install.packages</span>(<span class="st">&quot;devtools&quot;</span>)
+<span class="kw">install.packages</span>(<span class="st">&#39;ggplot2&#39;</span>)
+
+<span class="co"># Then, from Github:</span>
+devtools::<span class="kw">install_github</span>(<span class="st">&quot;lmullen/historydata&quot;</span>)</code></pre></div>
+</section>
 <section id="population-data" class="slide level2">
 <h2>Population Data</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(historydata)
 <span class="kw">data</span>(us_state_populations)
 
 <span class="co"># Let&#39;s look at the first five rows</span>
-<span class="kw">library</span>(dplyr)
-us_state_populations %&gt;%<span class="st"> </span><span class="kw">head</span>(<span class="dv">5</span>)</code></pre></div>
-<pre><code>## Source: local data frame [5 x 4]
+us_state_populations</code></pre></div>
+<pre><code>## Source: local data frame [983 x 4]
 ## 
-##   GISJOIN  year         state population
-##     (chr) (int)         (chr)      (int)
-## 1    G090  1790   Connecticut     237655
-## 2    G100  1790      Delaware      59096
-## 3    G130  1790       Georgia      82548
-## 4    G240  1790      Maryland     319728
-## 5    G250  1790 Massachusetts     475199</code></pre>
+##    GISJOIN  year          state population
+##      (chr) (int)          (chr)      (int)
+## 1     G090  1790    Connecticut     237655
+## 2     G100  1790       Delaware      59096
+## 3     G130  1790        Georgia      82548
+## 4     G240  1790       Maryland     319728
+## 5     G250  1790  Massachusetts     475199
+## 6     G330  1790  New Hampshire     141899
+## 7     G340  1790     New Jersey     184139
+## 8     G360  1790       New York     340241
+## 9     G370  1790 North Carolina     395005
+## 10    G420  1790   Pennsylvania     433611
+## ..     ...   ...            ...        ...</code></pre>
 </section>
 <section id="plotting-population-data" class="slide level2">
 <h2>Plotting Population Data</h2>
 <p>A ridiculous example.</p>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-2-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-3-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="the-grammar-of-graphics" class="slide level2">
 <h2>The Grammar of Graphics</h2>
@@ -350,7 +364,7 @@ Let’s look at another ridiculous example.
 <h2>Scatterplot of Population</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> us_state_populations, <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population)) +<span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>()</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-12-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-13-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scatterplot-of-population---size" class="slide level2">
 <h2>Scatterplot of Population - Size</h2>
@@ -358,22 +372,22 @@ Let’s look at another ridiculous example.
                       <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population, 
                           <span class="dt">size=</span>population, <span class="dt">alpha=</span>population)) +
 <span class="st">  </span><span class="kw">geom_point</span>()</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-13-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-14-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scatterplot-of-population---smooth" class="slide level2">
 <h2>Scatterplot of Population - Smooth</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">populations +<span class="st"> </span><span class="kw">geom_point</span>() +<span class="st"> </span><span class="kw">geom_smooth</span>(<span class="dt">color=</span><span class="st">&quot;red&quot;</span>)</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-14-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-15-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scatterplot-of-population---jitter" class="slide level2">
 <h2>Scatterplot of Population - Jitter</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">populations +<span class="st"> </span><span class="kw">geom_jitter</span>(<span class="dt">alpha =</span> <span class="fl">0.4</span>)</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-15-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-16-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scatterplot-of-population---text-labels" class="slide level2">
 <h2>Scatterplot of Population - Text Labels</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">populations +<span class="st"> </span><span class="kw">geom_text</span>(<span class="kw">aes</span>(<span class="dt">label=</span>state), <span class="dt">size =</span> <span class="dv">3</span>)</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-16-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-17-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="using-facets" class="slide level2">
 <h2>Using Facets</h2>
@@ -382,20 +396,20 @@ Let’s look at another ridiculous example.
 <span class="kw">ggplot</span>(population_subset, <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population)) +<span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat =</span> <span class="st">&quot;identity&quot;</span>) +
 <span class="st">  </span><span class="kw">facet_grid</span>(state ~<span class="st"> </span>.)</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-17-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-18-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="line-graph---too-many-variables" class="slide level2">
 <h2>Line Graph - Too Many Variables</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">p &lt;-<span class="st"> </span><span class="kw">ggplot</span>(us_state_populations, <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population))
 p +<span class="st"> </span><span class="kw">geom_line</span>(<span class="kw">aes</span>(<span class="dt">color =</span> state))</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-18-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-19-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="facets-to-the-rescue" class="slide level2">
 <h2>Facets to the Rescue!</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">p +<span class="st"> </span><span class="kw">geom_line</span>() +
 <span class="st">  </span><span class="kw">facet_wrap</span>(~state, <span class="dt">ncol =</span> <span class="dv">12</span>) +
 <span class="st">  </span><span class="kw">theme_linedraw</span>()</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-19-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-20-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scales" class="slide level2">
 <h2>Scales</h2>
@@ -416,7 +430,7 @@ p +<span class="st"> </span><span class="kw">geom_line</span>(<span class="kw">a
                                      <span class="st">&quot;Utah&quot;</span>, <span class="st">&quot;Washington&quot;</span>,  <span class="st">&quot;Wyoming&quot;</span>)) 
 <span class="kw">ggplot</span>(<span class="dt">data =</span> western_subset, <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population, <span class="dt">fill=</span>state)) +<span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>)</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-20-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-21-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scales---grey" class="slide level2">
 <h2>Scales - Grey</h2>
@@ -424,7 +438,7 @@ p +<span class="st"> </span><span class="kw">geom_line</span>(<span class="kw">a
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(western_subset, <span class="kw">aes</span>(<span class="dt">x =</span> year, <span class="dt">y =</span> population, <span class="dt">fill =</span> state)) +
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">stat=</span><span class="st">&quot;identity&quot;</span>) +
 <span class="st">  </span><span class="kw">scale_fill_grey</span>()</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-21-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-22-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scales---discrete" class="slide level2">
 <h2>Scales - Discrete</h2>
@@ -433,7 +447,7 @@ p +<span class="st"> </span><span class="kw">geom_line</span>(<span class="kw">a
 <span class="st">  </span><span class="kw">scale_fill_discrete</span>(<span class="dt">name =</span> <span class="st">&quot;State&quot;</span>, <span class="dt">label =</span> <span class="kw">c</span>(<span class="st">&quot;AZ&quot;</span>, <span class="st">&quot;CA&quot;</span>, <span class="st">&quot;CO&quot;</span>, <span class="st">&quot;ID&quot;</span>,
                                                 <span class="st">&quot;MT&quot;</span>, <span class="st">&quot;NV&quot;</span>, <span class="st">&quot;NM&quot;</span>, <span class="st">&quot;OR&quot;</span>, 
                                                 <span class="st">&quot;UT&quot;</span>, <span class="st">&quot;WA&quot;</span>, <span class="st">&quot;WY&quot;</span>)) </code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-22-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-23-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scales---changing-fill-scale" class="slide level2">
 <h2>Scales - Changing Fill Scale</h2>
@@ -441,7 +455,7 @@ p +<span class="st"> </span><span class="kw">geom_line</span>(<span class="kw">a
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>, <span class="dt">stat =</span> <span class="st">&quot;identity&quot;</span>) +
 <span class="st">  </span><span class="kw">scale_fill_brewer</span>(<span class="dt">palette =</span> <span class="st">&quot;Paired&quot;</span>) +
 <span class="st">  </span><span class="kw">theme_minimal</span>()</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-23-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-24-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scales---y-reversed" class="slide level2">
 <h2>Scales - Y-Reversed</h2>
@@ -469,7 +483,7 @@ paulist_missions %&gt;%<span class="st"> </span><span class="kw">head</span>(<sp
 <span class="st">  </span><span class="kw">labs</span>(<span class="dt">title =</span> <span class="st">&quot;Paulist Missions&quot;</span>,
        <span class="dt">x =</span> <span class="st">&quot;Confessions&quot;</span>,
        <span class="dt">y =</span> <span class="st">&quot;Converts&quot;</span>) </code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-25-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-26-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="scales---y-reversed-2" class="slide level2">
 <h2>Scales - Y-Reversed</h2>
@@ -479,7 +493,7 @@ paulist_missions %&gt;%<span class="st"> </span><span class="kw">head</span>(<sp
        <span class="dt">x =</span> <span class="st">&quot;Confessions&quot;</span>,
        <span class="dt">y =</span> <span class="st">&quot;Converts&quot;</span>) +<span class="st"> </span>
 <span class="st">  </span><span class="kw">scale_y_reverse</span>()</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-26-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-27-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="same-data-plotted-differently" class="slide level2">
 <h2>Same Data, Plotted Differently</h2>
@@ -490,7 +504,7 @@ paulist_missions %&gt;%<span class="st"> </span><span class="kw">head</span>(<sp
 <span class="st">  </span><span class="kw">theme</span>(
     <span class="dt">axis.text.x =</span> <span class="kw">element_text</span>(<span class="dt">angle =</span> <span class="dv">90</span>, <span class="dt">hjust =</span> <span class="dv">1</span>) 
   )</code></pre></div>
-<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-27-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p><img src="01-intro-to-ggplot_files/figure-revealjs/unnamed-chunk-28-1.png" width="768" style="display: block; margin: auto;" /></p>
 </section>
 <section id="worksheet-1-introduction-to-ggplot" class="slide level2">
 <h2>Worksheet #1: Introduction to ggplot</h2>

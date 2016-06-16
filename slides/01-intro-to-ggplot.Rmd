@@ -63,6 +63,17 @@ Edward Tufte suggests that graphical excellence is defined by "that which gives 
 Edward Tufte, *The Visual Display of Quantitative Information* (Graphics Press, 1983).
 </span>
 
+## Installing Packages
+
+```{r, eval=F}
+# First, download from CRAN:
+install.packages("devtools")
+install.packages('ggplot2')
+
+# Then, from Github:
+devtools::install_github("lmullen/historydata")
+```
+
 ## Population Data
 
 ```{r, message=F, warning=F}
@@ -70,8 +81,7 @@ library(historydata)
 data(us_state_populations)
 
 # Let's look at the first five rows
-library(dplyr)
-us_state_populations %>% head(5)
+us_state_populations
 ```
 
 ## Plotting Population Data
@@ -335,6 +345,7 @@ populations + geom_text(aes(label=state), size = 3)
 ## Using Facets
 
 ```{r, fig.align='center', fig.height=5, message=F, warning=F}
+library(historydata)
 population_subset <- subset(us_state_populations, 
                         state %in% c("New Mexico", "Arizona", "Utah", "Colorado")) 
 ggplot(population_subset, aes(x = year, y = population)) + 
